@@ -1,5 +1,5 @@
 import {PACKS,validateSongs,poolFor,createGame,answerGame,nextQuestion,mistakes,wordForm,recordKey} from './game.mjs';
-import {initParty} from './party.js';
+import {initParty} from './party.js?v=20261003-2';
 const $=id=>document.getElementById(id);
 let songs=[],pack='all',game=null,imageReady=false,imageGeneration=0;
 const storage={get(key,fallback){try{return localStorage.getItem(key)??fallback;}catch{return fallback;}},set(key,value){try{localStorage.setItem(key,String(value));return true;}catch{return false;}}};
