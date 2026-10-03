@@ -1,7 +1,21 @@
-# Insert inside the existing memo.eykod.qzz.io block before its fallback proxy.
-handle_path /song-quiz/* {
-    reverse_proxy song-quiz-rooms:8102
+# Inside the existing sim.fpimi.ru block, before its root catalog handler.
+# Replace RELEASE_SHA with the exact verified static release commit.
+redir /karaoke /karaoke/ 308
+handle_path /karaoke/* {
+    @karaokeRoomEndpoints path /rooms /health
+    handle @karaokeRoomEndpoints {
+        reverse_proxy song-quiz-rooms:8102
+    }
+    handle {
+        root * /srv/simhub/karaoke-releases/RELEASE_SHA
+        header X-Content-Type-Options nosniff
+        @karaokeFresh path / /index.html /build-info.json /styles.css /japanese.css /slideshow.css
+        header @karaokeFresh Cache-Control no-cache
+        file_server
+    }
 }
-handle {
-    reverse_proxy memo-web:8080
-}
+@karaokeReleaseFiles path /karaoke-releases /karaoke-releases/*
+respond @karaokeReleaseFiles 404
+
+# Keep the existing root catalog and other applications unchanged.
+# Keep the old /song-quiz/* route in memo.eykod.qzz.io for existing mirror tabs.
