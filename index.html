@@ -8,20 +8,21 @@
   <meta property="og:title" content="Узнай песню — музыкальная игра по картинкам">
   <meta property="og:description" content="Одна картинка, четыре песни. Сколько ты узнаешь?">
   <meta property="og:image" content="https://mupamuc.github.io/song-picture-quiz/assets/177.webp">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self' https://0.peerjs.com wss://0.peerjs.com; font-src 'self'; base-uri 'self'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self' https://0.peerjs.com wss://0.peerjs.com wss://memo.eykod.qzz.io; font-src 'self'; base-uri 'self'; object-src 'none'">
   <title>Узнай песню — игра по картинкам</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="japanese.css">
+  <link rel="stylesheet" href="slideshow.css">
   <link rel="preload" href="assets/177.webp" as="image">
   <script data-quiz-startup src="startup.780950f9edc8.js" defer></script>
-  <script data-quiz-bundle src="app.439190bb3d3b.js" defer></script>
+  <script data-quiz-bundle src="app.bb4bb2721418.js" defer></script>
 </head>
 <body>
   <div class="shell">
     <header class="site-header">
       <a class="brand" href="./" aria-label="Узнай песню — на главную"><span class="brand-record" aria-hidden="true">音</span><span>Узнай <i>песню</i><small>МУЗЫКАЛЬНАЯ ИГРА</small></span></a>
-      <div class="header-actions"><button id="sound-toggle" class="sound-toggle plain-button" type="button" aria-label="Звук фрагментов" aria-pressed="true">♫ Звук вкл.</button><button id="fullscreen" class="plain-button fullscreen" type="button" aria-label="На весь экран"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg><span>На весь экран</span></button></div>
+      <div class="header-actions"><button id="open-slideshow" class="slideshow-button plain-button" type="button">▧ Слайдшоу</button><button id="sound-toggle" class="sound-toggle plain-button" type="button" aria-label="Звук фрагментов" aria-pressed="true">♫ Звук вкл.</button><button id="fullscreen" class="plain-button fullscreen" type="button" aria-label="На весь экран"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg><span>На весь экран</span></button></div>
     </header>
 
     <main>
@@ -98,5 +99,13 @@
     </main>
     <footer class="site-footer"><span>Картинки вдохновлены песнями и созданы с помощью ИИ.</span><span>Смотри. Узнавай. Подпевай.</span></footer>
   </div>
+  <section id="slideshow" class="slideshow" role="dialog" aria-modal="true" aria-label="Слайдшоу фотографий с музыкой" hidden>
+    <div id="slide-backdrop" class="slide-backdrop" aria-hidden="true"></div>
+    <div class="slide-stage"><img id="slide-photo-a" class="slide-photo" alt="Фотография из альбома"><img id="slide-photo-b" class="slide-photo" alt="Фотография из альбома"></div>
+    <div class="slide-top"><div class="slide-heading"><span class="slide-seal" aria-hidden="true">想</span><span>Наши моменты<small id="slide-count">Фотоальбом</small></span></div><div class="slide-window-controls"><button id="slide-fullscreen" type="button" aria-label="Слайдшоу на весь экран">⛶</button><button id="slide-close" class="slide-close" type="button" aria-label="Закрыть слайдшоу"><span>Вернуться к игре</span><b aria-hidden="true">×</b></button></div></div>
+    <div class="slide-bottom"><div class="slide-song-line"><p><b id="slide-song">Музыка из избранного</b><small id="slide-music-status" role="status"></small></p><span id="slide-status" class="slide-status" role="status"></span></div><div class="slide-controls"><div class="slide-photo-controls"><button id="slide-previous" type="button" aria-label="Предыдущее фото">←</button><button id="slide-pause" type="button" aria-pressed="false">Ⅱ Пауза</button><button id="slide-next" type="button" aria-label="Следующее фото">→</button><label class="slide-interval">Смена фото<select id="slide-interval" aria-label="Интервал смены фото"><option value="5">5 сек.</option><option value="8" selected>8 сек.</option><option value="12">12 сек.</option><option value="20">20 сек.</option></select></label></div><div class="slide-music-controls"><button id="slide-sound" type="button" aria-pressed="true">♫ Звук вкл.</button><button id="slide-next-song" type="button">Другая песня ↻</button><label class="slide-volume">Громкость<input id="slide-volume" type="range" min="0" max="1" step="0.05" value="0.65" aria-label="Громкость музыки"></label></div></div></div>
+    <div class="slide-timeline"><input id="slide-seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Позиция воспроизведения песни"><span id="slide-time">0:00</span></div>
+    <audio id="slideshow-audio" preload="none"></audio>
+  </section>
 </body>
 </html>

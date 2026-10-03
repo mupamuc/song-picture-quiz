@@ -13,7 +13,7 @@ await writeFile(new URL(startupName,import.meta.url),startup);
 const pagePath=new URL('index.html',import.meta.url);
 let html=await readFile(pagePath,'utf8');
 const relayOrigin=RELAY_URL?new URL(RELAY_URL).origin:'';
-if(RELAY_URL&&(!RELAY_URL.startsWith('wss://')||new URL(RELAY_URL).pathname!=='/rooms'))throw new Error('Use a secure room-service endpoint ending in /rooms');
+if(RELAY_URL){const endpoint=new URL(RELAY_URL);if(endpoint.protocol!=='wss:'||!/^\/(?:[a-z0-9-]+\/)*rooms$/.test(endpoint.pathname)||endpoint.search||endpoint.hash||endpoint.username||endpoint.password)throw new Error('Use a secure room-service endpoint ending in /rooms');}
 html=html.replace(/connect-src [^;]*;/,`connect-src 'self' https://0.peerjs.com wss://0.peerjs.com${relayOrigin?' '+relayOrigin:''};`);
 if(!html.includes('data-quiz-bundle')||!html.includes('data-quiz-startup'))throw new Error('Startup tags not found');
 html=html.replace(/<script\b[^>]*data-quiz-startup[^>]*><\/script>/,`<script data-quiz-startup src="${startupName}" defer></script>`).replace(/<script\b[^>]*data-quiz-bundle[^>]*><\/script>/,`<script data-quiz-bundle src="${appName}" defer></script>`);

@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {createShuffleBag} from './shuffle.mjs';
+test('photos and music visit every item before repeating, including cycle boundaries',()=>{for(const random of [()=>0,()=>.99,Math.random]){const bag=createShuffleBag([1,2,3,4],random),values=Array.from({length:40},()=>bag.next());for(let i=0;i<40;i+=4)assert.equal(new Set(values.slice(i,i+4)).size,4);for(let i=1;i<values.length;i++)assert.notEqual(values[i],values[i-1]);}});
+test('a single item can repeat and empty collections fail clearly',()=>{const bag=createShuffleBag(['a']);assert.equal(bag.next(),'a');assert.equal(bag.next(),'a');assert.throws(()=>createShuffleBag([]));});
+test('slideshow has stripped local photo copies and full favourites with existing assets',()=>{const album=JSON.parse(readFileSync(new URL('./slideshow.json',import.meta.url),'utf8'));assert.ok(album.photos.length>=47);assert.equal(album.tracks.length,26);for(const p of album.photos){assert.match(p.src,/^photos\/\d{3}\.[a-f0-9]{12}\.webp$/);assert.ok(p.width>0&&p.height>0);assert.ok(existsSync(new URL(p.src,import.meta.url)));}for(const t of album.tracks){assert.match(t.src,/^music\/\d{3}\.[a-f0-9]{12}\.mp3$/);assert.ok(t.duration>60);assert.ok(existsSync(new URL(t.src,import.meta.url)));}assert.equal(new Set(album.photos.map(p=>p.src)).size,album.photos.length);});

@@ -1,6 +1,7 @@
 import {PACKS,validateSongs,poolFor,createGame,answerGame,nextQuestion,mistakes,wordForm,recordKey} from './game.mjs';
 import catalogue from './songs.json';
 import {createExcerptPlayer} from './audio.mjs';
+import {initSlideshow} from './slideshow.js';
 const $=id=>document.getElementById(id);
 let songs=[],pack='all',game=null,imageReady=false,imageGeneration=0,partyModule=null;
 const storage={get(key,fallback){try{return localStorage.getItem(key)??fallback;}catch{return fallback;}},set(key,value){try{localStorage.setItem(key,String(value));return true;}catch{return false;}}};
@@ -109,5 +110,6 @@ for(const view of ['solo','host']){$(`${view}-audio-play`).onclick=()=>void exce
 $('packs').addEventListener('click',event=>{const button=event.target.closest('[data-pack]');if(!button)return;pack=button.dataset.pack;updateSetup();});$('rounds').addEventListener('change',updateSetup);
 $('fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{$('notice').textContent='Этот браузер не разрешил полноэкранный режим.';}});
 document.addEventListener('fullscreenchange',()=>{const active=!!document.fullscreenElement;$('fullscreen').setAttribute('aria-label',active?'Выйти из полного экрана':'На весь экран');$('fullscreen').querySelector('span').textContent=active?'Выйти из полного экрана':'На весь экран';});
-document.addEventListener('keydown',event=>{if(event.altKey||event.ctrlKey||event.metaKey||event.repeat||event.target.matches('input,select,textarea')||$('game').hidden||!game)return;const q=game.questions[game.index];if(!q.answered&&/^[1-4]$/.test(event.key)&&imageReady){event.preventDefault();submit(q.options[Number(event.key)-1].id);}else if(q.answered&&event.key==='Enter'){event.preventDefault();advance();}});
+document.addEventListener('keydown',event=>{if(event.altKey||event.ctrlKey||event.metaKey||event.repeat||event.target.matches('input,select,textarea')||!$('slideshow').hidden||$('game').hidden||!game)return;const q=game.questions[game.index];if(!q.answered&&/^[1-4]$/.test(event.key)&&imageReady){event.preventDefault();submit(q.options[Number(event.key)-1].id);}else if(q.answered&&event.key==='Enter'){event.preventDefault();advance();}});
+initSlideshow({stopExcerpt:excerpt.stop});
 loadSongs();
