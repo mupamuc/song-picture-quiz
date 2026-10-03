@@ -9,7 +9,7 @@ services:
     ports:
       - "127.0.0.1:8102:8102"
     environment:
-      ALLOWED_ORIGINS: https://mupamuc.github.io
+      ALLOWED_ORIGINS: https://mupamuc.github.io,https://sim.fpimi.ru
       BUILD_SHA: ${BUILD_SHA:-local}
       PORT: 8102
     networks:

@@ -11,7 +11,7 @@ const clock=()=>Math.floor(performance.timeOrigin+performance.now());
 const alphabet='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const validOwner=p=>p&&typeof p.id==='string'&&typeof p.token==='string'&&/^[-\w]{20,80}$/.test(p.id)&&/^[-\w]{20,80}$/.test(p.token);
 
-export function createRoomServer({origins=['https://mupamuc.github.io'],hostGraceMs=90000,maxRooms=100,tickMs=100}={}){
+export function createRoomServer({origins=['https://mupamuc.github.io','https://sim.fpimi.ru'],hostGraceMs=90000,maxRooms=100,tickMs=100}={}){
   const rooms=new Map(),allowed=new Set(origins);
   const server=createServer((req,res)=>{
     if(req.url==='/health'){res.writeHead(200,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify({status:'ok',maxPlayers:MAX_PLAYERS,rooms:rooms.size,transport:'websocket',build:process.env.BUILD_SHA||'local'}));}

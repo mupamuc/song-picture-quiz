@@ -40,7 +40,7 @@ function loadSongs(){
 }
 async function openParty(action,invite=''){
   if(!songs.length)return;
-  if(location.protocol==='file:'){$('notice').textContent='Для игры с телефонами открой https://mupamuc.github.io/song-picture-quiz/';return;}
+  if(location.protocol==='file:'){$('notice').textContent='Для игры с телефонами открой https://sim.fpimi.ru/karaoke/';return;}
   $('host-room').disabled=true;$('open-join').disabled=true;$('notice').textContent='Готовим игру с телефонами…';
   try{
     partyModule??=import('./party.js');const {initParty}=await partyModule;
