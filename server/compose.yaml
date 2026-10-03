@@ -1,0 +1,25 @@
+services:
+  song-quiz-rooms:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8890:8890"
+    environment:
+      ALLOWED_ORIGINS: https://mupamuc.github.io
+      BUILD_SHA: ${BUILD_SHA:-local}
+    mem_limit: 256m
+    cpus: 0.5
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"

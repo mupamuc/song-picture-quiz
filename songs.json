@@ -1,1 +1,3174 @@
-[{"id":"1","title":"Батарейка","artist":"Жуки","image":"assets/001.webp","categories":["guitar"]},{"id":"2","title":"Вахтерам","artist":"Бумбокс","image":"assets/002.webp","categories":["guitar"]},{"id":"3","title":"Кукушка","artist":"Полина Гагарина","image":"assets/003.webp","categories":[]},{"id":"4","title":"Районы-кварталы","artist":"Звери","image":"assets/004.webp","categories":["guitar"]},{"id":"5","title":"Рюмка водки на столе","artist":"Григорий Лепс","image":"assets/005.webp","categories":["guitar"]},{"id":"6","title":"Сансара","artist":"Баста","image":"assets/006.webp","categories":["guitar"]},{"id":"7","title":"Угонщица","artist":"Ирина Аллегрова","image":"assets/007.webp","categories":[]},{"id":"8","title":"Младший лейтенант","artist":"Ирина Аллегрова","image":"assets/008.webp","categories":[]},{"id":"9","title":"Останусь","artist":"Город 312","image":"assets/009.webp","categories":[]},{"id":"10","title":"Хали-гали, паратруппер","artist":"Леприконсы","image":"assets/010.webp","categories":["guitar"]},{"id":"11","title":"Это все","artist":"ДДТ","image":"assets/011.webp","categories":["guitar"]},{"id":"12","title":"Попытка № 5","artist":"Виа Гра","image":"assets/012.webp","categories":[]},{"id":"13","title":"Твои глаза","artist":"Светлана Лобода","image":"assets/013.webp","categories":[]},{"id":"14","title":"Босая","artist":"2Маши","image":"assets/014.webp","categories":[]},{"id":"15","title":"Лирика","artist":"Сектор Газа","image":"assets/015.webp","categories":["guitar"]},{"id":"16","title":"Тебе моя последняя любовь","artist":"Ирина Круг","image":"assets/016.webp","categories":[]},{"id":"18","title":"Курю","artist":"Елена Ваенга","image":"assets/018.webp","categories":[]},{"id":"19","title":"Беспечный ангел","artist":"Ария","image":"assets/019.webp","categories":["guitar"]},{"id":"20","title":"Я куплю тебе дом","artist":"Лесоповал","image":"assets/020.webp","categories":[]},{"id":"21","title":"Императрица","artist":"Ирина Аллегрова","image":"assets/021.webp","categories":[]},{"id":"23","title":"Гитара","artist":"Любовь Успенская","image":"assets/023.webp","categories":[]},{"id":"24","title":"Господа офицеры","artist":"Олег Газманов","image":"assets/024.webp","categories":["guitar"]},{"id":"25","title":"Наше лето","artist":"Валентин Стрыкало","image":"assets/025.webp","categories":["guitar"]},{"id":"27","title":"День рождения","artist":"Ирина Аллегрова","image":"assets/027.webp","categories":[]},{"id":"28","title":"В Питере пить","artist":"Ленинград","image":"assets/028.webp","categories":[]},{"id":"30","title":"Владимирский централ","artist":"Михаил Круг","image":"assets/030.webp","categories":["guitar"]},{"id":"31","title":"Кукла колдуна","artist":"Король и Шут","image":"assets/031.webp","categories":["guitar"]},{"id":"32","title":"Экспонат","artist":"Ленинград","image":"assets/032.webp","categories":[]},{"id":"33","title":"Знаешь ли ты","artist":"Макsим","image":"assets/033.webp","categories":[]},{"id":"34","title":"Аэропорты","artist":"Леонид Агутин и Владимир Пресняков","image":"assets/034.webp","categories":[]},{"id":"35","title":"Любовь и боль","artist":"Ваграм Вазян","image":"assets/035.webp","categories":[]},{"id":"36","title":"Моя игра","artist":"Баста","image":"assets/036.webp","categories":[]},{"id":"37","title":"Девочка-пай","artist":"Михаил Круг","image":"assets/037.webp","categories":[]},{"id":"38","title":"Кольщик","artist":"Михаил Круг","image":"assets/038.webp","categories":[]},{"id":"39","title":"Роман","artist":"Неангелы","image":"assets/039.webp","categories":[]},{"id":"40","title":"К единственному нежному","artist":"Любовь Успенская","image":"assets/040.webp","categories":[]},{"id":"41","title":"Самый лучший день","artist":"Григорий Лепс","image":"assets/041.webp","categories":[]},{"id":"42","title":"Конь","artist":"Любэ","image":"assets/042.webp","categories":["guitar"]},{"id":"43","title":"Грустный дэнс","artist":"Artik, Asti, Артем Качер","image":"assets/043.webp","categories":[]},{"id":"44","title":"Проклятый старый дом","artist":"Король и шут","image":"assets/044.webp","categories":["guitar"]},{"id":"45","title":"Притяженья больше нет","artist":"Виа Гра и Валерий Меладзе","image":"assets/045.webp","categories":["screenshots"]},{"id":"46","title":"Выпускной (медлячок)","artist":"Баста","image":"assets/046.webp","categories":["guitar"]},{"id":"47","title":"Лесник","artist":"Король и шут","image":"assets/047.webp","categories":["guitar"]},{"id":"48","title":"Восемнадцать мне уже","artist":"Руки Вверх","image":"assets/048.webp","categories":["screenshots"]},{"id":"49","title":"Прятки","artist":"Hammali и Navai","image":"assets/049.webp","categories":[]},{"id":"50","title":"Потерянный рай","artist":"Ария","image":"assets/050.webp","categories":["guitar"]},{"id":"51","title":"Океан и три реки","artist":"Виа Гра и Валерий Меладзе","image":"assets/051.webp","categories":[]},{"id":"52","title":"Я люблю тебя до слез","artist":"Александр Серов","image":"assets/052.webp","categories":[]},{"id":"53","title":"Пропадаю я","artist":"Любовь Успенская","image":"assets/053.webp","categories":[]},{"id":"54","title":"Красиво","artist":"Валерий Меладзе","image":"assets/054.webp","categories":[]},{"id":"55","title":"Прыгну со скалы","artist":"Король и шут","image":"assets/055.webp","categories":["guitar"]},{"id":"56","title":"Синяя вечность","artist":"Муслим Магомаев","image":"assets/056.webp","categories":[]},{"id":"57","title":"Туманы","artist":"Макс Барских","image":"assets/057.webp","categories":[]},{"id":"58","title":"Город, которого нет","artist":"Игорь Корнелюк","image":"assets/058.webp","categories":[]},{"id":"59","title":"Группа крови","artist":"Кино","image":"assets/059.webp","categories":["guitar"]},{"id":"60","title":"Superstar","artist":"Светлана Лобода","image":"assets/060.webp","categories":[]},{"id":"61","title":"Половинка","artist":"Танцы Минус","image":"assets/061.webp","categories":["guitar"]},{"id":"62","title":"Индиго","artist":"Дана Соколова и Скруджи","image":"assets/062.webp","categories":[]},{"id":"63","title":"Крошка моя","artist":"Руки Вверх","image":"assets/063.webp","categories":[]},{"id":"64","title":"В жизни так бывает","artist":"Многоточие","image":"assets/064.webp","categories":[]},{"id":"65","title":"Приходите в мой дом","artist":"Михаил Круг и Вика Цыганова","image":"assets/065.webp","categories":[]},{"id":"66","title":"Кукушка","artist":"Кино","image":"assets/066.webp","categories":["guitar"]},{"id":"67","title":"Моя бабушка курит трубку","artist":"Гарик Сукачев","image":"assets/067.webp","categories":[]},{"id":"68","title":"Это здорово","artist":"Николай Носков","image":"assets/068.webp","categories":[]},{"id":"69","title":"Безответно","artist":"Валерий Меладзе и Анастасия Приходько","image":"assets/069.webp","categories":[]},{"id":"70","title":"Солдат","artist":"5’nizza","image":"assets/070.webp","categories":["guitar"]},{"id":"71","title":"Мама, я танцую","artist":"2маши","image":"assets/071.webp","categories":[]},{"id":"72","title":"Фантазер","artist":"Ярослав Евдокимов","image":"assets/072.webp","categories":[]},{"id":"73","title":"Комета","artist":"Jony","image":"assets/073.webp","categories":[]},{"id":"74","title":"Пуля-дура","artist":"Светлана Лобода","image":"assets/074.webp","categories":[]},{"id":"75","title":"Текила-любовь","artist":"Валерий Меладзе","image":"assets/075.webp","categories":[]},{"id":"76","title":"Life","artist":"Zivert","image":"assets/076.webp","categories":[]},{"id":"77","title":"Что такое осень","artist":"ДДТ","image":"assets/077.webp","categories":["guitar"]},{"id":"78","title":"Чужие губы","artist":"Руки Вверх","image":"assets/078.webp","categories":[]},{"id":"80","title":"Марджанджа","artist":"Михаил Шуфутинский","image":"assets/080.webp","categories":[]},{"id":"81","title":"Мелом","artist":"Пропаганда","image":"assets/081.webp","categories":[]},{"id":"82","title":"Зеленые волны","artist":"Zivert","image":"assets/082.webp","categories":[]},{"id":"83","title":"Спектакль окончен","artist":"Полина Гагарина","image":"assets/083.webp","categories":[]},{"id":"84","title":"Простая Песня","artist":"Iowa","image":"assets/084.webp","categories":[]},{"id":"85","title":"Тридцать лет","artist":"Сектор Газа","image":"assets/085.webp","categories":["guitar"]},{"id":"86","title":"Третье сентября","artist":"Михаил Шуфутинский","image":"assets/086.webp","categories":[]},{"id":"87","title":"www.leningrad.ru","artist":"Ленинград","image":"assets/087.webp","categories":[]},{"id":"88","title":"Мотылек","artist":"Макс Корж","image":"assets/088.webp","categories":["guitar"]},{"id":"90","title":"40 градусов","artist":"Светлана Лобода","image":"assets/090.webp","categories":[]},{"id":"92","title":"Зеленоглазое такси","artist":"Михаил Боярский","image":"assets/092.webp","categories":[]},{"id":"93","title":"Фонари","artist":"Город 312","image":"assets/093.webp","categories":[]},{"id":"94","title":"О любви","artist":"Чиж и Ко","image":"assets/094.webp","categories":["guitar"]},{"id":"95","title":"Девочка, танцуй","artist":"Artik и Asti","image":"assets/095.webp","categories":[]},{"id":"96","title":"Музыка нас связала","artist":"Мираж","image":"assets/096.webp","categories":[]},{"id":"97","title":"Улетаю","artist":"A’Studio","image":"assets/097.webp","categories":[]},{"id":"99","title":"Ordinary","artist":"ALEX WARREN","image":"assets/099.webp","categories":["english"]},{"id":"100","title":"Преданный бывший","artist":"ANNA ASTI","image":"assets/100.webp","categories":[]},{"id":"101","title":"Homay","artist":"AY YOLA","image":"assets/101.webp","categories":["english"]},{"id":"102","title":"Sigma boy","artist":"BETSY, МАРИЯ ЯНКОВСКАЯ","image":"assets/102.webp","categories":[]},{"id":"103","title":"Кухни","artist":"БОНД С КНОПКОЙ","image":"assets/103.webp","categories":[]},{"id":"104","title":"Пусть бог будет рядом с твоими планами","artist":"MACAN, БАСТА","image":"assets/104.webp","categories":[]},{"id":"105","title":"Beautiful people","artist":"DAVID GUETTA & SIA","image":"assets/105.webp","categories":["english"]},{"id":"106","title":"Болен тобой","artist":"ДИМА БИЛАН","image":"assets/106.webp","categories":[]},{"id":"107","title":"С неба","artist":"ELMAN, TRIDA","image":"assets/107.webp","categories":[]},{"id":"108","title":"Golden","artist":"HUNTR/X","image":"assets/108.webp","categories":["english"]},{"id":"109","title":"На сиреневой луне","artist":"JONY","image":"assets/109.webp","categories":[]},{"id":"110","title":"Up from the bottom","artist":"LINKIN PARK","image":"assets/110.webp","categories":["english"]},{"id":"111","title":"Триггер","artist":"ЛЮСЯ ЧЕБОТИНА","image":"assets/111.webp","categories":[]},{"id":"112","title":"Миражи","artist":"MERAB AMZOEVI","image":"assets/112.webp","categories":[]},{"id":"113","title":"Город дорог","artist":"MONA, MACAN","image":"assets/113.webp","categories":[]},{"id":"114","title":"Счастливым","artist":"NILETTO","image":"assets/114.webp","categories":[]},{"id":"115","title":"Бывало и лучше","artist":"ОЛЬГА СЕРЯБКИНА","image":"assets/115.webp","categories":[]},{"id":"116","title":"Please please please","artist":"SABRINA CARPENTER","image":"assets/116.webp","categories":["english"]},{"id":"117","title":"Не расслабляйся","artist":"СКРИПТОНИТ","image":"assets/117.webp","categories":[]},{"id":"118","title":"Back to friends","artist":"SOMBR","image":"assets/118.webp","categories":["english"]},{"id":"119","title":"Танцуй","artist":"СЕРГЕЙ ЛАЗАРЕВ","image":"assets/119.webp","categories":[]},{"id":"120","title":"Иду за тобой","artist":"ТРИ ДНЯ ДОЖДЯ","image":"assets/120.webp","categories":[]},{"id":"121","title":"Плохая девочка","artist":"ВИНТАЖ & ТРАВМА & SKIDRI & DVRKLXGHT","image":"assets/121.webp","categories":["screenshots"]},{"id":"122","title":"Шёлк","artist":"ВАНЯ ДМИТРИЕНКО","image":"assets/122.webp","categories":[]},{"id":"123","title":"Настоящая","artist":"ВАНЯ ДМИТРИЕНКО","image":"assets/123.webp","categories":[]},{"id":"124","title":"Привет","artist":"ЖЕНЯ ТРОФИМОВ, КОМНАТА КУЛЬТУРЫ","image":"assets/124.webp","categories":[]},{"id":"125","title":"Я хочу быть","artist":"ANNA ASTI","image":"assets/125.webp","categories":[]},{"id":"126","title":"Эгоистка","artist":"ZIVERT","image":"assets/126.webp","categories":[]},{"id":"127","title":"Бобр","artist":"SLAVA SKRIPKA","image":"assets/127.webp","categories":[]},{"id":"128","title":"Планы на завтра","artist":"TIGO & MIGRANT","image":"assets/128.webp","categories":[]},{"id":"129","title":"Шадэ","artist":"Индия, Xcho, МОТ","image":"assets/129.webp","categories":[]},{"id":"130","title":"Черемша","artist":"Gazan","image":"assets/130.webp","categories":[]},{"id":"131","title":"Феникс","artist":"Bearwolf","image":"assets/131.webp","categories":[]},{"id":"132","title":"Мальборо","artist":"Sayan","image":"assets/132.webp","categories":[]},{"id":"133","title":"Ртуть","artist":"Ваня Дмитриенко","image":"assets/133.webp","categories":[]},{"id":"134","title":"Попрошу тебя","artist":"MONA","image":"assets/134.webp","categories":[]},{"id":"135","title":"Корабли","artist":"Xolidayboy","image":"assets/135.webp","categories":[]},{"id":"136","title":"Базовый минимум","artist":"MIA BOYKA & SABI","image":"assets/136.webp","categories":[]},{"id":"137","title":"Экспонат","artist":"MIA BOYKA","image":"assets/137.webp","categories":[]},{"id":"138","title":"Diamonds","artist":"Rihanna","image":"assets/138.webp","categories":["english"]},{"id":"139","title":"The Show Must Go On","artist":"Queen","image":"assets/139.webp","categories":["english"]},{"id":"140","title":"Rolling in the Deep","artist":"Adele","image":"assets/140.webp","categories":["english"]},{"id":"141","title":"It's My Life","artist":"Bon Jovi","image":"assets/141.webp","categories":["english"]},{"id":"142","title":"Don't Speak","artist":"No Doubt","image":"assets/142.webp","categories":["english"]},{"id":"143","title":"Je t'aime","artist":"Lara Fabian","image":"assets/143.webp","categories":[]},{"id":"144","title":"Dance Monkey","artist":"Tones and I","image":"assets/144.webp","categories":["english"]},{"id":"145","title":"Shape of My Heart","artist":"Sting","image":"assets/145.webp","categories":["english"]},{"id":"146","title":"Hurt","artist":"Christina Aguilera","image":"assets/146.webp","categories":["english"]},{"id":"147","title":"Sweet Dreams","artist":"Eurythmics","image":"assets/147.webp","categories":["english"]},{"id":"148","title":"Skyfall","artist":"Adele","image":"assets/148.webp","categories":["english"]},{"id":"149","title":"Bring Me to Life","artist":"Evanescence","image":"assets/149.webp","categories":["english"]},{"id":"150","title":"All of Me","artist":"John Legend","image":"assets/150.webp","categories":["english"]},{"id":"151","title":"Still Loving You","artist":"Scorpions","image":"assets/151.webp","categories":["english"]},{"id":"152","title":"Confessa","artist":"Adriano Celentano","image":"assets/152.webp","categories":[]},{"id":"153","title":"Someone Like You","artist":"Adele","image":"assets/153.webp","categories":["english"]},{"id":"154","title":"Wind of Change","artist":"Scorpions","image":"assets/154.webp","categories":["english"]},{"id":"155","title":"Du Hast","artist":"Rammstein","image":"assets/155.webp","categories":[]},{"id":"156","title":"Human","artist":"Rag'n'Bone Man","image":"assets/156.webp","categories":["english"]},{"id":"157","title":"The Best","artist":"Tina Turner","image":"assets/157.webp","categories":["english"]},{"id":"158","title":"Два крыла","artist":"Dabro","image":"assets/158.webp","categories":[]},{"id":"159","title":"На часах ноль-ноль","artist":"Dabro","image":"assets/159.webp","categories":["guitar"]},{"id":"160","title":"Ты знаешь, мам","artist":"Dabro","image":"assets/160.webp","categories":[]},{"id":"161","title":"Услышит весь район","artist":"Dabro","image":"assets/161.webp","categories":[]},{"id":"162","title":"Юность","artist":"Dabro","image":"assets/162.webp","categories":["guitar"]},{"id":"163","title":"Shape of You","artist":"Ed Sheeran","image":"assets/163.webp","categories":["english"]},{"id":"164","title":"We Will Rock You","artist":"Queen","image":"assets/164.webp","categories":["english"]},{"id":"165","title":"Худи","artist":"Джиган, Artik & Asti, NILETTO","image":"assets/165.webp","categories":[]},{"id":"166","title":"Апрель","artist":"Кино","image":"assets/166.webp","categories":[]},{"id":"167","title":"Весна","artist":"Кино","image":"assets/167.webp","categories":[]},{"id":"168","title":"Восьмиклассница","artist":"Кино","image":"assets/168.webp","categories":["guitar"]},{"id":"169","title":"Звезда по имени Солнце","artist":"Кино","image":"assets/169.webp","categories":["guitar"]},{"id":"170","title":"Кончится лето","artist":"Кино","image":"assets/170.webp","categories":["guitar"]},{"id":"171","title":"Пачка сигарет","artist":"Кино","image":"assets/171.webp","categories":["guitar"]},{"id":"172","title":"Перемен!","artist":"Кино","image":"assets/172.webp","categories":["guitar"]},{"id":"173","title":"Печаль","artist":"Кино","image":"assets/173.webp","categories":[]},{"id":"174","title":"Спокойная ночь","artist":"Кино","image":"assets/174.webp","categories":["guitar"]},{"id":"175","title":"Солнце Монако","artist":"Люся Чеботина","image":"assets/175.webp","categories":[]},{"id":"176","title":"Матушка","artist":"Татьяна Куртукова","image":"assets/176.webp","categories":[]},{"id":"177","title":"Звёзды в лужах","artist":"30.02","image":"assets/177.webp","categories":["screenshots"]},{"id":"178","title":"Миражи","artist":"Ирина Аллегрова, Игорь Николаев","image":"assets/178.webp","categories":["screenshots"]},{"id":"179","title":"Лететь","artist":"Амега","image":"assets/179.webp","categories":["screenshots"]},{"id":"180","title":"Лайки","artist":"Би-2","image":"assets/180.webp","categories":["screenshots"]},{"id":"181","title":"Плохая девочка","artist":"Винтаж, Елена Корикова","image":"assets/181.webp","categories":["screenshots"]},{"id":"182","title":"Сумасшедшая","artist":"Алексей Воробьёв","image":"assets/182.webp","categories":["screenshots"]},{"id":"183","title":"Голос","artist":"Полина Гагарина, Баста","image":"assets/183.webp","categories":["screenshots"]},{"id":"184","title":"Хочу","artist":"Ёлка","image":"assets/184.webp","categories":["screenshots"]},{"id":"185","title":"Берег и море","artist":"Карандаш, Ленин","image":"assets/185.webp","categories":["screenshots"]},{"id":"186","title":"Мёртвый анархист","artist":"Король и Шут","image":"assets/186.webp","categories":["screenshots"]},{"id":"187","title":"Маяк","artist":"Сплин","image":"assets/187.webp","categories":["screenshots"]},{"id":"188","title":"Ботик","artist":"Гарик Сукачёв","image":"assets/188.webp","categories":["screenshots"]},{"id":"189","title":"Восемнадцать берёз","artist":"Чиж и Ко","image":"assets/189.webp","categories":["screenshots"]},{"id":"190","title":"Сан-Франциско (Remix)","artist":"Кар-Мэн","image":"assets/190.webp","categories":["screenshots"]},{"id":"191","title":"Perhaps Perhaps Perhaps","artist":"Doris Day","image":"assets/191.webp","categories":["screenshots","english"]},{"id":"192","title":"Frozen","artist":"Madonna","image":"assets/192.webp","categories":["screenshots","english"]},{"id":"193","title":"Angels","artist":"Morandi","image":"assets/193.webp","categories":["screenshots","english"]},{"id":"194","title":"Любимка","artist":"NILETTO","image":"assets/194.webp","categories":["screenshots"]},{"id":"195","title":"Где нас нет","artist":"Oxxxymiron","image":"assets/195.webp","categories":["screenshots"]},{"id":"196","title":"Клетка","artist":"Quest Pistols","image":"assets/196.webp","categories":["screenshots"]},{"id":"197","title":"Да, со мной не просто","artist":"The Hatters","image":"assets/197.webp","categories":["screenshots"]},{"id":"198","title":"Наружу изнутри","artist":"The Hatters","image":"assets/198.webp","categories":["screenshots"]},{"id":"199","title":"Just Tonight","artist":"The Pretty Reckless","image":"assets/199.webp","categories":["screenshots","english"]},{"id":"200","title":"Я так соскучился","artist":"Володя Котляров","image":"assets/200.webp","categories":["guitar"]},{"id":"202","title":"Штиль","artist":"Ария","image":"assets/202.webp","categories":["guitar"]},{"id":"203","title":"Всё идёт по плану","artist":"Гражданская Оборона","image":"assets/203.webp","categories":["guitar"]},{"id":"204","title":"Демобилизация","artist":"Сектор Газа","image":"assets/204.webp","categories":["guitar"]},{"id":"205","title":"Выхода нет","artist":"Сплин","image":"assets/205.webp","categories":["guitar"]},{"id":"206","title":"Люби меня, люби","artist":"Гречка","image":"assets/206.webp","categories":["guitar"]},{"id":"207","title":"Самый дорогой человек","artist":"Нервы","image":"assets/207.webp","categories":["guitar"]},{"id":"208","title":"Просвистела","artist":"ДДТ","image":"assets/208.webp","categories":["guitar"]},{"id":"209","title":"Как на войне","artist":"Агата Кристи","image":"assets/209.webp","categories":["guitar"]},{"id":"210","title":"Батареи","artist":"Нервы","image":"assets/210.webp","categories":["guitar"]},{"id":"211","title":"Фантом","artist":"Чиж и Ко","image":"assets/211.webp","categories":["guitar"]},{"id":"212","title":"Тёмная ночь","artist":"Марк Бернес","image":"assets/212.webp","categories":["guitar"]},{"id":"213","title":"А мы не ангелы, парень","artist":"Алексей Понамарёв","image":"assets/213.webp","categories":["guitar"]},{"id":"214","title":"Дурак и молния","artist":"Король и Шут","image":"assets/214.webp","categories":["guitar"]},{"id":"215","title":"Бомж","artist":"Сектор Газа","image":"assets/215.webp","categories":["guitar"]},{"id":"216","title":"Журавли","artist":"Марк Бернес","image":"assets/216.webp","categories":["guitar"]},{"id":"217","title":"Прогулки по воде","artist":"Наутилус Помпилиус","image":"assets/217.webp","categories":["guitar"]},{"id":"218","title":"Туман","artist":"Сектор Газа","image":"assets/218.webp","categories":["guitar"]},{"id":"221","title":"Я свободен","artist":"Кипелов","image":"assets/221.webp","categories":["guitar"]},{"id":"222","title":"Белая ночь","artist":"Виктор Салтыков","image":"assets/222.webp","categories":["guitar"]},{"id":"223","title":"Smells Like Teen Spirit","artist":"Nirvana","image":"assets/223.webp","categories":["guitar","english"]},{"id":"227","title":"В руках автомат","artist":"МодеМ","image":"assets/227.webp","categories":["guitar"]},{"id":"228","title":"Хочешь","artist":"Земфира","image":"assets/228.webp","categories":["guitar"]},{"id":"229","title":"Вороны","artist":"Нервы","image":"assets/229.webp","categories":["guitar"]},{"id":"230","title":"Жить в кайф","artist":"Макс Корж","image":"assets/230.webp","categories":["guitar"]},{"id":"231","title":"Когда твоя девушка больна","artist":"Кино","image":"assets/231.webp","categories":["guitar"]},{"id":"233","title":"Крылья","artist":"Наутилус Помпилиус","image":"assets/233.webp","categories":["guitar"]},{"id":"234","title":"Ты неси меня река","artist":"Любэ","image":"assets/234.webp","categories":["guitar"]},{"id":"236","title":"Полковнику никто не пишет","artist":"Би-2","image":"assets/236.webp","categories":["guitar"]},{"id":"237","title":"Метель","artist":"ДДТ","image":"assets/237.webp","categories":["guitar"]},{"id":"238","title":"Счастье","artist":"Нервы","image":"assets/238.webp","categories":["guitar"]},{"id":"239","title":"Маленький","artist":"Дайте танк (!)","image":"assets/239.webp","categories":["guitar"]},{"id":"240","title":"Камнем по голове","artist":"Король и Шут","image":"assets/240.webp","categories":["guitar"]},{"id":"241","title":"Zombie","artist":"The Cranberries","image":"assets/241.webp","categories":["guitar","english"]},{"id":"242","title":"Горы по колено","artist":"Макс Корж","image":"assets/242.webp","categories":["guitar"]},{"id":"244","title":"Твой звонок","artist":"Сектор Газа","image":"assets/244.webp","categories":["guitar"]},{"id":"246","title":"Стук","artist":"Кино","image":"assets/246.webp","categories":["guitar"]},{"id":"247","title":"Всё решено","artist":"Валентин Стрыкало","image":"assets/247.webp","categories":["guitar"]},{"id":"248","title":"До скорой встречи","artist":"Звери","image":"assets/248.webp","categories":["guitar"]},{"id":"250","title":"Любите, девушки","artist":"Браво","image":"assets/250.webp","categories":["guitar"]},{"id":"251","title":"Юность в сапогах","artist":"Конец Фильма","image":"assets/251.webp","categories":["guitar"]},{"id":"252","title":"Первое свидание","artist":"Алёна Швец","image":"assets/252.webp","categories":["guitar"]},{"id":"254","title":"Мой рок-н-ролл","artist":"Би-2","image":"assets/254.webp","categories":["guitar"]},{"id":"259","title":"Замигает свет","artist":"Kentukki","image":"assets/259.webp","categories":["guitar"]},{"id":"260","title":"Серебро","artist":"Би-2","image":"assets/260.webp","categories":["guitar"]},{"id":"261","title":"В платье белом","artist":"Ляпис Трубецкой","image":"assets/261.webp","categories":["guitar"]},{"id":"262","title":"На поле танки грохотали","artist":"Чиж и Ко","image":"assets/262.webp","categories":["guitar"]},{"id":"264","title":"Искала","artist":"Земфира","image":"assets/264.webp","categories":["guitar"]},{"id":"266","title":"Слово пацана","artist":"Макс Корж","image":"assets/266.webp","categories":["guitar"]},{"id":"267","title":"Видели ночь","artist":"Кино","image":"assets/267.webp","categories":["guitar"]}]
+[
+  {
+    "id": "1",
+    "title": "Батарейка",
+    "artist": "Жуки",
+    "image": "assets/001.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/001.39568536db3d.mp3",
+      "duration": 15.0,
+      "sourceStart": 13.672
+    }
+  },
+  {
+    "id": "2",
+    "title": "Вахтерам",
+    "artist": "Бумбокс",
+    "image": "assets/002.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/002.9b9f7454c711.mp3",
+      "duration": 15.0,
+      "sourceStart": 20.687
+    }
+  },
+  {
+    "id": "3",
+    "title": "Кукушка",
+    "artist": "Полина Гагарина",
+    "image": "assets/003.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/003.c935b2bc05da.mp3",
+      "duration": 15.0,
+      "sourceStart": 13.553
+    }
+  },
+  {
+    "id": "4",
+    "title": "Районы-кварталы",
+    "artist": "Звери",
+    "image": "assets/004.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/004.1966b2e97782.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.832
+    }
+  },
+  {
+    "id": "5",
+    "title": "Рюмка водки на столе",
+    "artist": "Григорий Лепс",
+    "image": "assets/005.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/005.5d57bda462e2.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.454
+    }
+  },
+  {
+    "id": "6",
+    "title": "Сансара",
+    "artist": "Баста",
+    "image": "assets/006.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/006.755a1eedd4c6.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.283
+    }
+  },
+  {
+    "id": "7",
+    "title": "Угонщица",
+    "artist": "Ирина Аллегрова",
+    "image": "assets/007.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/007.91c21271221f.mp3",
+      "duration": 15.0,
+      "sourceStart": 34.129
+    }
+  },
+  {
+    "id": "8",
+    "title": "Младший лейтенант",
+    "artist": "Ирина Аллегрова",
+    "image": "assets/008.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/008.5581b82f78eb.mp3",
+      "duration": 15.0,
+      "sourceStart": 29.59
+    }
+  },
+  {
+    "id": "9",
+    "title": "Останусь",
+    "artist": "Город 312",
+    "image": "assets/009.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/009.30c35467b545.mp3",
+      "duration": 15.0,
+      "sourceStart": 46.432
+    }
+  },
+  {
+    "id": "10",
+    "title": "Хали-гали, паратруппер",
+    "artist": "Леприконсы",
+    "image": "assets/010.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/010.96ae80063ee1.mp3",
+      "duration": 15.0,
+      "sourceStart": 44.067
+    }
+  },
+  {
+    "id": "11",
+    "title": "Это все",
+    "artist": "ДДТ",
+    "image": "assets/011.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/011.3720d467c351.mp3",
+      "duration": 15.0,
+      "sourceStart": 40.335
+    }
+  },
+  {
+    "id": "12",
+    "title": "Попытка № 5",
+    "artist": "Виа Гра",
+    "image": "assets/012.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/012.5b20e4ff01ca.mp3",
+      "duration": 15.0,
+      "sourceStart": 19.248
+    }
+  },
+  {
+    "id": "13",
+    "title": "Твои глаза",
+    "artist": "Светлана Лобода",
+    "image": "assets/013.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/013.4522585e41dc.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.075
+    }
+  },
+  {
+    "id": "14",
+    "title": "Босая",
+    "artist": "2Маши",
+    "image": "assets/014.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/014.99004efd386f.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.147
+    }
+  },
+  {
+    "id": "15",
+    "title": "Лирика",
+    "artist": "Сектор Газа",
+    "image": "assets/015.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/015.fcc7d1b23353.mp3",
+      "duration": 15.0,
+      "sourceStart": 27.015
+    }
+  },
+  {
+    "id": "16",
+    "title": "Тебе моя последняя любовь",
+    "artist": "Ирина Круг",
+    "image": "assets/016.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/016.de0f8641a862.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.358
+    }
+  },
+  {
+    "id": "18",
+    "title": "Курю",
+    "artist": "Елена Ваенга",
+    "image": "assets/018.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/018.a8e97804c9ff.mp3",
+      "duration": 15.0,
+      "sourceStart": 48.877
+    }
+  },
+  {
+    "id": "19",
+    "title": "Беспечный ангел",
+    "artist": "Ария",
+    "image": "assets/019.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/019.e296f32974f1.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.661
+    }
+  },
+  {
+    "id": "20",
+    "title": "Я куплю тебе дом",
+    "artist": "Лесоповал",
+    "image": "assets/020.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/020.f16d37bc39b3.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.143
+    }
+  },
+  {
+    "id": "21",
+    "title": "Императрица",
+    "artist": "Ирина Аллегрова",
+    "image": "assets/021.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/021.bb1e2f95194d.mp3",
+      "duration": 15.0,
+      "sourceStart": 34.704
+    }
+  },
+  {
+    "id": "23",
+    "title": "Гитара",
+    "artist": "Любовь Успенская",
+    "image": "assets/023.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/023.5c36fe2304c9.mp3",
+      "duration": 15.0,
+      "sourceStart": 24.731
+    }
+  },
+  {
+    "id": "24",
+    "title": "Господа офицеры",
+    "artist": "Олег Газманов",
+    "image": "assets/024.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/024.4a178cd25310.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.239
+    }
+  },
+  {
+    "id": "25",
+    "title": "Наше лето",
+    "artist": "Валентин Стрыкало",
+    "image": "assets/025.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/025.008786a4a9b3.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.422
+    }
+  },
+  {
+    "id": "27",
+    "title": "День рождения",
+    "artist": "Ирина Аллегрова",
+    "image": "assets/027.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/027.692956bc3113.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.425
+    }
+  },
+  {
+    "id": "28",
+    "title": "В Питере пить",
+    "artist": "Ленинград",
+    "image": "assets/028.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/028.53db249acafe.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.65
+    }
+  },
+  {
+    "id": "30",
+    "title": "Владимирский централ",
+    "artist": "Михаил Круг",
+    "image": "assets/030.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/030.3e09c9eaee1d.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.489
+    }
+  },
+  {
+    "id": "31",
+    "title": "Кукла колдуна",
+    "artist": "Король и Шут",
+    "image": "assets/031.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/031.2a8069a982d3.mp3",
+      "duration": 15.0,
+      "sourceStart": 26.236
+    }
+  },
+  {
+    "id": "32",
+    "title": "Экспонат",
+    "artist": "Ленинград",
+    "image": "assets/032.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/032.fd3861ed08b1.mp3",
+      "duration": 15.0,
+      "sourceStart": 2.198
+    }
+  },
+  {
+    "id": "33",
+    "title": "Знаешь ли ты",
+    "artist": "Макsим",
+    "image": "assets/033.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/033.e0859ae23ddc.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.803
+    }
+  },
+  {
+    "id": "34",
+    "title": "Аэропорты",
+    "artist": "Леонид Агутин и Владимир Пресняков",
+    "image": "assets/034.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/034.090c4887378a.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.59
+    }
+  },
+  {
+    "id": "35",
+    "title": "Любовь и боль",
+    "artist": "Ваграм Вазян",
+    "image": "assets/035.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/035.c802a836e0cf.mp3",
+      "duration": 15.0,
+      "sourceStart": 9.972
+    }
+  },
+  {
+    "id": "36",
+    "title": "Моя игра",
+    "artist": "Баста",
+    "image": "assets/036.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/036.984c719ad13e.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.898
+    }
+  },
+  {
+    "id": "37",
+    "title": "Девочка-пай",
+    "artist": "Михаил Круг",
+    "image": "assets/037.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/037.a6c491008c84.mp3",
+      "duration": 15.0,
+      "sourceStart": 27.77
+    }
+  },
+  {
+    "id": "38",
+    "title": "Кольщик",
+    "artist": "Михаил Круг",
+    "image": "assets/038.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/038.f61f55c92a6a.mp3",
+      "duration": 15.0,
+      "sourceStart": 45.152
+    }
+  },
+  {
+    "id": "39",
+    "title": "Роман",
+    "artist": "Неангелы",
+    "image": "assets/039.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/039.c61808cd1bd2.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.517
+    }
+  },
+  {
+    "id": "40",
+    "title": "К единственному нежному",
+    "artist": "Любовь Успенская",
+    "image": "assets/040.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/040.d6c0f09e611a.mp3",
+      "duration": 15.0,
+      "sourceStart": 36.276
+    }
+  },
+  {
+    "id": "41",
+    "title": "Самый лучший день",
+    "artist": "Григорий Лепс",
+    "image": "assets/041.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/041.ca1365ffd1e8.mp3",
+      "duration": 15.0,
+      "sourceStart": 11.676
+    }
+  },
+  {
+    "id": "42",
+    "title": "Конь",
+    "artist": "Любэ",
+    "image": "assets/042.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/042.6d3162c00ac6.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.854
+    }
+  },
+  {
+    "id": "43",
+    "title": "Грустный дэнс",
+    "artist": "Artik, Asti, Артем Качер",
+    "image": "assets/043.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/043.e6e84c538851.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.297
+    }
+  },
+  {
+    "id": "44",
+    "title": "Проклятый старый дом",
+    "artist": "Король и шут",
+    "image": "assets/044.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/044.7323754a6015.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.842
+    }
+  },
+  {
+    "id": "45",
+    "title": "Притяженья больше нет",
+    "artist": "Виа Гра и Валерий Меладзе",
+    "image": "assets/045.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/045.1fb0e1e68dd5.mp3",
+      "duration": 15.0,
+      "sourceStart": 41.776
+    }
+  },
+  {
+    "id": "46",
+    "title": "Выпускной (медлячок)",
+    "artist": "Баста",
+    "image": "assets/046.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/046.92a54869ba43.mp3",
+      "duration": 15.0,
+      "sourceStart": 79.049
+    }
+  },
+  {
+    "id": "47",
+    "title": "Лесник",
+    "artist": "Король и шут",
+    "image": "assets/047.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/047.e905b45bc5d3.mp3",
+      "duration": 15.0,
+      "sourceStart": 60.486
+    }
+  },
+  {
+    "id": "48",
+    "title": "Восемнадцать мне уже",
+    "artist": "Руки Вверх",
+    "image": "assets/048.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/048.f41790492b6a.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.992
+    }
+  },
+  {
+    "id": "49",
+    "title": "Прятки",
+    "artist": "Hammali и Navai",
+    "image": "assets/049.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/049.0c3b06adbb31.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.242
+    }
+  },
+  {
+    "id": "50",
+    "title": "Потерянный рай",
+    "artist": "Ария",
+    "image": "assets/050.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/050.d65cb7836b97.mp3",
+      "duration": 15.0,
+      "sourceStart": 26.15
+    }
+  },
+  {
+    "id": "51",
+    "title": "Океан и три реки",
+    "artist": "Виа Гра и Валерий Меладзе",
+    "image": "assets/051.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/051.7f826e989d4d.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.017
+    }
+  },
+  {
+    "id": "52",
+    "title": "Я люблю тебя до слез",
+    "artist": "Александр Серов",
+    "image": "assets/052.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/052.b4c43afa0ca9.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.398
+    }
+  },
+  {
+    "id": "53",
+    "title": "Пропадаю я",
+    "artist": "Любовь Успенская",
+    "image": "assets/053.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/053.ff5303deb3f2.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.641
+    }
+  },
+  {
+    "id": "54",
+    "title": "Красиво",
+    "artist": "Валерий Меладзе",
+    "image": "assets/054.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/054.17bc654fddce.mp3",
+      "duration": 15.0,
+      "sourceStart": 2.925
+    }
+  },
+  {
+    "id": "55",
+    "title": "Прыгну со скалы",
+    "artist": "Король и шут",
+    "image": "assets/055.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/055.37e2cd4d8960.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.185
+    }
+  },
+  {
+    "id": "56",
+    "title": "Синяя вечность",
+    "artist": "Муслим Магомаев",
+    "image": "assets/056.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/056.9b24bec525c2.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.15
+    }
+  },
+  {
+    "id": "57",
+    "title": "Туманы",
+    "artist": "Макс Барских",
+    "image": "assets/057.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/057.b04048dc8c2a.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.949
+    }
+  },
+  {
+    "id": "58",
+    "title": "Город, которого нет",
+    "artist": "Игорь Корнелюк",
+    "image": "assets/058.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/058.b5f219211db3.mp3",
+      "duration": 15.0,
+      "sourceStart": 37.977
+    }
+  },
+  {
+    "id": "59",
+    "title": "Группа крови",
+    "artist": "Кино",
+    "image": "assets/059.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/059.0f43d3842478.mp3",
+      "duration": 15.0,
+      "sourceStart": 93.7
+    }
+  },
+  {
+    "id": "60",
+    "title": "Superstar",
+    "artist": "Светлана Лобода",
+    "image": "assets/060.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/060.78ed4010afa2.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.927
+    }
+  },
+  {
+    "id": "61",
+    "title": "Половинка",
+    "artist": "Танцы Минус",
+    "image": "assets/061.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/061.1073e5b302f1.mp3",
+      "duration": 15.0,
+      "sourceStart": 11.702
+    }
+  },
+  {
+    "id": "62",
+    "title": "Индиго",
+    "artist": "Дана Соколова и Скруджи",
+    "image": "assets/062.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/062.fe0dbfcf586b.mp3",
+      "duration": 15.0,
+      "sourceStart": 39.08
+    }
+  },
+  {
+    "id": "63",
+    "title": "Крошка моя",
+    "artist": "Руки Вверх",
+    "image": "assets/063.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/063.8163fb0a75e2.mp3",
+      "duration": 15.0,
+      "sourceStart": 32.641
+    }
+  },
+  {
+    "id": "64",
+    "title": "В жизни так бывает",
+    "artist": "Многоточие",
+    "image": "assets/064.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/064.68179e1ef68c.mp3",
+      "duration": 15.0,
+      "sourceStart": 58.103
+    }
+  },
+  {
+    "id": "65",
+    "title": "Приходите в мой дом",
+    "artist": "Михаил Круг и Вика Цыганова",
+    "image": "assets/065.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/065.65d26a7310c6.mp3",
+      "duration": 15.0,
+      "sourceStart": 25.049
+    }
+  },
+  {
+    "id": "66",
+    "title": "Кукушка",
+    "artist": "Кино",
+    "image": "assets/066.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/066.101bb1c358bd.mp3",
+      "duration": 15.0,
+      "sourceStart": 36.92
+    }
+  },
+  {
+    "id": "67",
+    "title": "Моя бабушка курит трубку",
+    "artist": "Гарик Сукачев",
+    "image": "assets/067.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/067.bc177d9c3442.mp3",
+      "duration": 15.0,
+      "sourceStart": 30.542
+    }
+  },
+  {
+    "id": "68",
+    "title": "Это здорово",
+    "artist": "Николай Носков",
+    "image": "assets/068.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/068.8739a6196226.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.894
+    }
+  },
+  {
+    "id": "69",
+    "title": "Безответно",
+    "artist": "Валерий Меладзе и Анастасия Приходько",
+    "image": "assets/069.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/069.2c51f2510f73.mp3",
+      "duration": 15.0,
+      "sourceStart": 11.466
+    }
+  },
+  {
+    "id": "70",
+    "title": "Солдат",
+    "artist": "5’nizza",
+    "image": "assets/070.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/070.452589fc090e.mp3",
+      "duration": 15.0,
+      "sourceStart": 13.611
+    }
+  },
+  {
+    "id": "71",
+    "title": "Мама, я танцую",
+    "artist": "2маши",
+    "image": "assets/071.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/071.e16cc8f1369d.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.777
+    }
+  },
+  {
+    "id": "72",
+    "title": "Фантазер",
+    "artist": "Ярослав Евдокимов",
+    "image": "assets/072.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/072.d8f5b56fec2b.mp3",
+      "duration": 15.0,
+      "sourceStart": 29.664
+    }
+  },
+  {
+    "id": "73",
+    "title": "Комета",
+    "artist": "Jony",
+    "image": "assets/073.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/073.fc1e2185537b.mp3",
+      "duration": 15.0,
+      "sourceStart": 12.373
+    }
+  },
+  {
+    "id": "74",
+    "title": "Пуля-дура",
+    "artist": "Светлана Лобода",
+    "image": "assets/074.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/074.86aacbd6086c.mp3",
+      "duration": 15.0,
+      "sourceStart": 44.482
+    }
+  },
+  {
+    "id": "75",
+    "title": "Текила-любовь",
+    "artist": "Валерий Меладзе",
+    "image": "assets/075.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/075.1faf192d9663.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.211
+    }
+  },
+  {
+    "id": "76",
+    "title": "Life",
+    "artist": "Zivert",
+    "image": "assets/076.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/076.5853fede38cd.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.98
+    }
+  },
+  {
+    "id": "77",
+    "title": "Что такое осень",
+    "artist": "ДДТ",
+    "image": "assets/077.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/077.09901f2e40ef.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.158
+    }
+  },
+  {
+    "id": "78",
+    "title": "Чужие губы",
+    "artist": "Руки Вверх",
+    "image": "assets/078.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/078.00528c4d89b7.mp3",
+      "duration": 15.0,
+      "sourceStart": 30.682
+    }
+  },
+  {
+    "id": "80",
+    "title": "Марджанджа",
+    "artist": "Михаил Шуфутинский",
+    "image": "assets/080.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/080.29654268fbc4.mp3",
+      "duration": 15.0,
+      "sourceStart": 30.555
+    }
+  },
+  {
+    "id": "81",
+    "title": "Мелом",
+    "artist": "Пропаганда",
+    "image": "assets/081.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/081.a5786e587fd0.mp3",
+      "duration": 15.0,
+      "sourceStart": 12.692
+    }
+  },
+  {
+    "id": "82",
+    "title": "Зеленые волны",
+    "artist": "Zivert",
+    "image": "assets/082.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/082.99bfb4f1b305.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.232
+    }
+  },
+  {
+    "id": "83",
+    "title": "Спектакль окончен",
+    "artist": "Полина Гагарина",
+    "image": "assets/083.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/083.2c23ce88d29f.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.032
+    }
+  },
+  {
+    "id": "84",
+    "title": "Простая Песня",
+    "artist": "Iowa",
+    "image": "assets/084.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/084.4ab376fbe67a.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.06
+    }
+  },
+  {
+    "id": "85",
+    "title": "Тридцать лет",
+    "artist": "Сектор Газа",
+    "image": "assets/085.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/085.fb5c30642923.mp3",
+      "duration": 15.0,
+      "sourceStart": 38.307
+    }
+  },
+  {
+    "id": "86",
+    "title": "Третье сентября",
+    "artist": "Михаил Шуфутинский",
+    "image": "assets/086.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/086.26c43fbf5ddd.mp3",
+      "duration": 15.0,
+      "sourceStart": 26.252
+    }
+  },
+  {
+    "id": "87",
+    "title": "www.leningrad.ru",
+    "artist": "Ленинград",
+    "image": "assets/087.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/087.ec00d3578ddd.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.141
+    }
+  },
+  {
+    "id": "88",
+    "title": "Мотылек",
+    "artist": "Макс Корж",
+    "image": "assets/088.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/088.e2540c3b3828.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.213
+    }
+  },
+  {
+    "id": "90",
+    "title": "40 градусов",
+    "artist": "Светлана Лобода",
+    "image": "assets/090.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/090.252e4ab7d5ea.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.077
+    }
+  },
+  {
+    "id": "92",
+    "title": "Зеленоглазое такси",
+    "artist": "Михаил Боярский",
+    "image": "assets/092.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/092.033f93d929e0.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.747
+    }
+  },
+  {
+    "id": "93",
+    "title": "Фонари",
+    "artist": "Город 312",
+    "image": "assets/093.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/093.eb795a99e982.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.363
+    }
+  },
+  {
+    "id": "94",
+    "title": "О любви",
+    "artist": "Чиж и Ко",
+    "image": "assets/094.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/094.95d48b886be6.mp3",
+      "duration": 15.0,
+      "sourceStart": 27.888
+    }
+  },
+  {
+    "id": "95",
+    "title": "Девочка, танцуй",
+    "artist": "Artik и Asti",
+    "image": "assets/095.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/095.9a54a38df5ef.mp3",
+      "duration": 15.0,
+      "sourceStart": 13.868
+    }
+  },
+  {
+    "id": "96",
+    "title": "Музыка нас связала",
+    "artist": "Мираж",
+    "image": "assets/096.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/096.ffef53a16760.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.537
+    }
+  },
+  {
+    "id": "97",
+    "title": "Улетаю",
+    "artist": "A’Studio",
+    "image": "assets/097.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/097.d0b3753dee8a.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.776
+    }
+  },
+  {
+    "id": "99",
+    "title": "Ordinary",
+    "artist": "ALEX WARREN",
+    "image": "assets/099.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/099.70a7e3b08c99.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.053
+    }
+  },
+  {
+    "id": "100",
+    "title": "Преданный бывший",
+    "artist": "ANNA ASTI",
+    "image": "assets/100.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/100.bf0fa2979d3c.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.604
+    }
+  },
+  {
+    "id": "101",
+    "title": "Homay",
+    "artist": "AY YOLA",
+    "image": "assets/101.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/101.310ddf0fd073.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.34
+    }
+  },
+  {
+    "id": "102",
+    "title": "Sigma boy",
+    "artist": "BETSY, МАРИЯ ЯНКОВСКАЯ",
+    "image": "assets/102.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/102.fcfe58d3c3d5.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.546
+    }
+  },
+  {
+    "id": "103",
+    "title": "Кухни",
+    "artist": "БОНД С КНОПКОЙ",
+    "image": "assets/103.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/103.d73e24a461c8.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.993
+    }
+  },
+  {
+    "id": "104",
+    "title": "Пусть бог будет рядом с твоими планами",
+    "artist": "MACAN, БАСТА",
+    "image": "assets/104.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/104.2a972055b962.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.636
+    }
+  },
+  {
+    "id": "105",
+    "title": "Beautiful people",
+    "artist": "DAVID GUETTA & SIA",
+    "image": "assets/105.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/105.08512297863f.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.857
+    }
+  },
+  {
+    "id": "106",
+    "title": "Болен тобой",
+    "artist": "ДИМА БИЛАН",
+    "image": "assets/106.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/106.dfdfc65819da.mp3",
+      "duration": 15.0,
+      "sourceStart": 25.436
+    }
+  },
+  {
+    "id": "107",
+    "title": "С неба",
+    "artist": "ELMAN, TRIDA",
+    "image": "assets/107.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/107.d762b95c9ca7.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.1
+    }
+  },
+  {
+    "id": "108",
+    "title": "Golden",
+    "artist": "HUNTR/X",
+    "image": "assets/108.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/108.785f1044fd96.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.026
+    }
+  },
+  {
+    "id": "109",
+    "title": "На сиреневой луне",
+    "artist": "JONY",
+    "image": "assets/109.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/109.19de29ea4ec4.mp3",
+      "duration": 15.0,
+      "sourceStart": 12.78
+    }
+  },
+  {
+    "id": "110",
+    "title": "Up from the bottom",
+    "artist": "LINKIN PARK",
+    "image": "assets/110.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/110.c23e5b384904.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.491
+    }
+  },
+  {
+    "id": "111",
+    "title": "Триггер",
+    "artist": "ЛЮСЯ ЧЕБОТИНА",
+    "image": "assets/111.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/111.cfd0475470e9.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.216
+    }
+  },
+  {
+    "id": "112",
+    "title": "Миражи",
+    "artist": "MERAB AMZOEVI",
+    "image": "assets/112.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/112.5ae98d9558fd.mp3",
+      "duration": 15.0,
+      "sourceStart": 2.091
+    }
+  },
+  {
+    "id": "113",
+    "title": "Город дорог",
+    "artist": "MONA, MACAN",
+    "image": "assets/113.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/113.bfe866f3fd6f.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.312
+    }
+  },
+  {
+    "id": "114",
+    "title": "Счастливым",
+    "artist": "NILETTO",
+    "image": "assets/114.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/114.66df66a5f8e4.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.173
+    }
+  },
+  {
+    "id": "115",
+    "title": "Бывало и лучше",
+    "artist": "ОЛЬГА СЕРЯБКИНА",
+    "image": "assets/115.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/115.1df5b8a57209.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.662
+    }
+  },
+  {
+    "id": "116",
+    "title": "Please please please",
+    "artist": "SABRINA CARPENTER",
+    "image": "assets/116.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/116.09247891ff9a.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.796
+    }
+  },
+  {
+    "id": "117",
+    "title": "Не расслабляйся",
+    "artist": "СКРИПТОНИТ",
+    "image": "assets/117.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/117.2b89228833ac.mp3",
+      "duration": 15.0,
+      "sourceStart": 44.104
+    }
+  },
+  {
+    "id": "118",
+    "title": "Back to friends",
+    "artist": "SOMBR",
+    "image": "assets/118.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/118.c380936c5c0b.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.963
+    }
+  },
+  {
+    "id": "119",
+    "title": "Танцуй",
+    "artist": "СЕРГЕЙ ЛАЗАРЕВ",
+    "image": "assets/119.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/119.d5fcc5c9275e.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.802
+    }
+  },
+  {
+    "id": "120",
+    "title": "Иду за тобой",
+    "artist": "ТРИ ДНЯ ДОЖДЯ",
+    "image": "assets/120.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/120.35d2a6d2b325.mp3",
+      "duration": 15.0,
+      "sourceStart": 13.1
+    }
+  },
+  {
+    "id": "121",
+    "title": "Плохая девочка",
+    "artist": "ВИНТАЖ & ТРАВМА & SKIDRI & DVRKLXGHT",
+    "image": "assets/121.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/121.21f836fc96be.mp3",
+      "duration": 15.0,
+      "sourceStart": 7.052
+    }
+  },
+  {
+    "id": "122",
+    "title": "Шёлк",
+    "artist": "ВАНЯ ДМИТРИЕНКО",
+    "image": "assets/122.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/122.e348dd16d881.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.823
+    }
+  },
+  {
+    "id": "123",
+    "title": "Настоящая",
+    "artist": "ВАНЯ ДМИТРИЕНКО",
+    "image": "assets/123.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/123.101fdc45361d.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.455
+    }
+  },
+  {
+    "id": "124",
+    "title": "Привет",
+    "artist": "ЖЕНЯ ТРОФИМОВ, КОМНАТА КУЛЬТУРЫ",
+    "image": "assets/124.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/124.f5a553f54303.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.212
+    }
+  },
+  {
+    "id": "125",
+    "title": "Я хочу быть",
+    "artist": "ANNA ASTI",
+    "image": "assets/125.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/125.70149e3c4692.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.631
+    }
+  },
+  {
+    "id": "126",
+    "title": "Эгоистка",
+    "artist": "ZIVERT",
+    "image": "assets/126.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/126.b5655d6a235e.mp3",
+      "duration": 15.0,
+      "sourceStart": 3.03
+    }
+  },
+  {
+    "id": "127",
+    "title": "Бобр",
+    "artist": "SLAVA SKRIPKA",
+    "image": "assets/127.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/127.acb31870e976.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.995
+    }
+  },
+  {
+    "id": "128",
+    "title": "Планы на завтра",
+    "artist": "TIGO & MIGRANT",
+    "image": "assets/128.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/128.a29ed75b95d8.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.971
+    }
+  },
+  {
+    "id": "129",
+    "title": "Шадэ",
+    "artist": "Индия, Xcho, МОТ",
+    "image": "assets/129.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/129.f4e628ec40e3.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.151
+    }
+  },
+  {
+    "id": "130",
+    "title": "Черемша",
+    "artist": "Gazan",
+    "image": "assets/130.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/130.2c5084f3c2a6.mp3",
+      "duration": 15.0,
+      "sourceStart": 0
+    }
+  },
+  {
+    "id": "131",
+    "title": "Феникс",
+    "artist": "Bearwolf",
+    "image": "assets/131.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/131.3ed337a48d63.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.515
+    }
+  },
+  {
+    "id": "132",
+    "title": "Мальборо",
+    "artist": "Sayan",
+    "image": "assets/132.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/132.21ab87db42bb.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.606
+    }
+  },
+  {
+    "id": "133",
+    "title": "Ртуть",
+    "artist": "Ваня Дмитриенко",
+    "image": "assets/133.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/133.9b8c99e822c6.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.564
+    }
+  },
+  {
+    "id": "134",
+    "title": "Попрошу тебя",
+    "artist": "MONA",
+    "image": "assets/134.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/134.6184f71e2bdc.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.968
+    }
+  },
+  {
+    "id": "135",
+    "title": "Корабли",
+    "artist": "Xolidayboy",
+    "image": "assets/135.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/135.90d52dea9e92.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.695
+    }
+  },
+  {
+    "id": "136",
+    "title": "Базовый минимум",
+    "artist": "MIA BOYKA & SABI",
+    "image": "assets/136.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/136.0a31dfa73743.mp3",
+      "duration": 15.0,
+      "sourceStart": 19.914
+    }
+  },
+  {
+    "id": "137",
+    "title": "Экспонат",
+    "artist": "MIA BOYKA",
+    "image": "assets/137.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/137.4868dfb399b7.mp3",
+      "duration": 15.0,
+      "sourceStart": 0
+    }
+  },
+  {
+    "id": "138",
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "image": "assets/138.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/138.5c35ede43ae4.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.043
+    }
+  },
+  {
+    "id": "139",
+    "title": "The Show Must Go On",
+    "artist": "Queen",
+    "image": "assets/139.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/139.1fc577f16a53.mp3",
+      "duration": 15.0,
+      "sourceStart": 19.595
+    }
+  },
+  {
+    "id": "140",
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "image": "assets/140.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/140.12bbf1d303e3.mp3",
+      "duration": 15.0,
+      "sourceStart": 6.32
+    }
+  },
+  {
+    "id": "141",
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "image": "assets/141.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/141.1858ebae3828.mp3",
+      "duration": 15.0,
+      "sourceStart": 7.72
+    }
+  },
+  {
+    "id": "142",
+    "title": "Don't Speak",
+    "artist": "No Doubt",
+    "image": "assets/142.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/142.5b179edf03c9.mp3",
+      "duration": 15.0,
+      "sourceStart": 6.422
+    }
+  },
+  {
+    "id": "143",
+    "title": "Je t'aime",
+    "artist": "Lara Fabian",
+    "image": "assets/143.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/143.8606742cf401.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.372
+    }
+  },
+  {
+    "id": "144",
+    "title": "Dance Monkey",
+    "artist": "Tones and I",
+    "image": "assets/144.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/144.e4fbbc769caa.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.878
+    }
+  },
+  {
+    "id": "145",
+    "title": "Shape of My Heart",
+    "artist": "Sting",
+    "image": "assets/145.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/145.45f21d986fe1.mp3",
+      "duration": 15.0,
+      "sourceStart": 23.743
+    }
+  },
+  {
+    "id": "146",
+    "title": "Hurt",
+    "artist": "Christina Aguilera",
+    "image": "assets/146.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/146.a066308cfdaf.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.793
+    }
+  },
+  {
+    "id": "147",
+    "title": "Sweet Dreams",
+    "artist": "Eurythmics",
+    "image": "assets/147.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/147.b6fb3e5c392f.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.173
+    }
+  },
+  {
+    "id": "148",
+    "title": "Skyfall",
+    "artist": "Adele",
+    "image": "assets/148.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/148.72b2491d52a8.mp3",
+      "duration": 15.0,
+      "sourceStart": 57.253
+    }
+  },
+  {
+    "id": "149",
+    "title": "Bring Me to Life",
+    "artist": "Evanescence",
+    "image": "assets/149.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/149.a40d15fbbe45.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.342
+    }
+  },
+  {
+    "id": "150",
+    "title": "All of Me",
+    "artist": "John Legend",
+    "image": "assets/150.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/150.1e909cb82438.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.466
+    }
+  },
+  {
+    "id": "151",
+    "title": "Still Loving You",
+    "artist": "Scorpions",
+    "image": "assets/151.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/151.d65084058065.mp3",
+      "duration": 15.0,
+      "sourceStart": 27.312
+    }
+  },
+  {
+    "id": "152",
+    "title": "Confessa",
+    "artist": "Adriano Celentano",
+    "image": "assets/152.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/152.3134bab5a295.mp3",
+      "duration": 15.0,
+      "sourceStart": 25.362
+    }
+  },
+  {
+    "id": "153",
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "image": "assets/153.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/153.7c0cc8aac6ea.mp3",
+      "duration": 15.0,
+      "sourceStart": 14.933
+    }
+  },
+  {
+    "id": "154",
+    "title": "Wind of Change",
+    "artist": "Scorpions",
+    "image": "assets/154.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/154.c3809b416f08.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.033
+    }
+  },
+  {
+    "id": "155",
+    "title": "Du Hast",
+    "artist": "Rammstein",
+    "image": "assets/155.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/155.77d737f7c7b0.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.231
+    }
+  },
+  {
+    "id": "156",
+    "title": "Human",
+    "artist": "Rag'n'Bone Man",
+    "image": "assets/156.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/156.e87078696d23.mp3",
+      "duration": 15.0,
+      "sourceStart": 13.518
+    }
+  },
+  {
+    "id": "157",
+    "title": "The Best",
+    "artist": "Tina Turner",
+    "image": "assets/157.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/157.ec73b16a7c9c.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.895
+    }
+  },
+  {
+    "id": "158",
+    "title": "Два крыла",
+    "artist": "Dabro",
+    "image": "assets/158.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/158.31bbeb82e07e.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.13
+    }
+  },
+  {
+    "id": "159",
+    "title": "На часах ноль-ноль",
+    "artist": "Dabro",
+    "image": "assets/159.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/159.549a225bc74e.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.672
+    }
+  },
+  {
+    "id": "160",
+    "title": "Ты знаешь, мам",
+    "artist": "Dabro",
+    "image": "assets/160.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/160.e9bd860dbc29.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.18
+    }
+  },
+  {
+    "id": "161",
+    "title": "Услышит весь район",
+    "artist": "Dabro",
+    "image": "assets/161.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/161.e4bfa597a483.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.256
+    }
+  },
+  {
+    "id": "162",
+    "title": "Юность",
+    "artist": "Dabro",
+    "image": "assets/162.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/162.09b37be193f6.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.843
+    }
+  },
+  {
+    "id": "163",
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "image": "assets/163.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/163.3e8847a5a7af.mp3",
+      "duration": 15.0,
+      "sourceStart": 9.54
+    }
+  },
+  {
+    "id": "164",
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "image": "assets/164.webp",
+    "categories": [
+      "english"
+    ],
+    "audio": {
+      "src": "audio/164.7fe826624cfa.mp3",
+      "duration": 15.0,
+      "sourceStart": 11.741
+    }
+  },
+  {
+    "id": "165",
+    "title": "Худи",
+    "artist": "Джиган, Artik & Asti, NILETTO",
+    "image": "assets/165.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/165.5ba53af3fbd9.mp3",
+      "duration": 15.0,
+      "sourceStart": 35.955
+    }
+  },
+  {
+    "id": "166",
+    "title": "Апрель",
+    "artist": "Кино",
+    "image": "assets/166.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/166.19c9b03e504e.mp3",
+      "duration": 15.0,
+      "sourceStart": 19.0
+    }
+  },
+  {
+    "id": "167",
+    "title": "Весна",
+    "artist": "Кино",
+    "image": "assets/167.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/167.61e208d1b8f1.mp3",
+      "duration": 15.0,
+      "sourceStart": 7.731
+    }
+  },
+  {
+    "id": "168",
+    "title": "Восьмиклассница",
+    "artist": "Кино",
+    "image": "assets/168.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/168.65ea09948789.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.28
+    }
+  },
+  {
+    "id": "169",
+    "title": "Звезда по имени Солнце",
+    "artist": "Кино",
+    "image": "assets/169.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/169.e599ae72cb77.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.78
+    }
+  },
+  {
+    "id": "170",
+    "title": "Кончится лето",
+    "artist": "Кино",
+    "image": "assets/170.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/170.369d497bca0d.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.96
+    }
+  },
+  {
+    "id": "171",
+    "title": "Пачка сигарет",
+    "artist": "Кино",
+    "image": "assets/171.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/171.a659a96fc0cb.mp3",
+      "duration": 15.0,
+      "sourceStart": 20.44
+    }
+  },
+  {
+    "id": "172",
+    "title": "Перемен!",
+    "artist": "Кино",
+    "image": "assets/172.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/172.53ea5f76dc9f.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.54
+    }
+  },
+  {
+    "id": "173",
+    "title": "Печаль",
+    "artist": "Кино",
+    "image": "assets/173.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/173.b00123f9f963.mp3",
+      "duration": 15.0,
+      "sourceStart": 36.28
+    }
+  },
+  {
+    "id": "174",
+    "title": "Спокойная ночь",
+    "artist": "Кино",
+    "image": "assets/174.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/174.e693181bd97b.mp3",
+      "duration": 15.0,
+      "sourceStart": 57.88
+    }
+  },
+  {
+    "id": "175",
+    "title": "Солнце Монако",
+    "artist": "Люся Чеботина",
+    "image": "assets/175.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/175.027382f09c5d.mp3",
+      "duration": 15.0,
+      "sourceStart": 6.76
+    }
+  },
+  {
+    "id": "176",
+    "title": "Матушка",
+    "artist": "Татьяна Куртукова",
+    "image": "assets/176.webp",
+    "categories": [],
+    "audio": {
+      "src": "audio/176.bcb5eb5b3536.mp3",
+      "duration": 15.0,
+      "sourceStart": 12.06
+    }
+  },
+  {
+    "id": "177",
+    "title": "Звёзды в лужах",
+    "artist": "30.02",
+    "image": "assets/177.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/177.c4a958021598.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.577
+    }
+  },
+  {
+    "id": "178",
+    "title": "Миражи",
+    "artist": "Ирина Аллегрова, Игорь Николаев",
+    "image": "assets/178.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/178.92e11329d92c.mp3",
+      "duration": 15.0,
+      "sourceStart": 39.747
+    }
+  },
+  {
+    "id": "179",
+    "title": "Лететь",
+    "artist": "Амега",
+    "image": "assets/179.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/179.a71eb41502b8.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.983
+    }
+  },
+  {
+    "id": "180",
+    "title": "Лайки",
+    "artist": "Би-2",
+    "image": "assets/180.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/180.42e9ca680727.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.08
+    }
+  },
+  {
+    "id": "181",
+    "title": "Плохая девочка",
+    "artist": "Винтаж, Елена Корикова",
+    "image": "assets/181.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/181.150e698514db.mp3",
+      "duration": 15.0,
+      "sourceStart": 41.1
+    }
+  },
+  {
+    "id": "182",
+    "title": "Сумасшедшая",
+    "artist": "Алексей Воробьёв",
+    "image": "assets/182.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/182.5c9e50bbcd9c.mp3",
+      "duration": 15.0,
+      "sourceStart": 34.98
+    }
+  },
+  {
+    "id": "183",
+    "title": "Голос",
+    "artist": "Полина Гагарина, Баста",
+    "image": "assets/183.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/183.1784e9d74c1e.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.931
+    }
+  },
+  {
+    "id": "184",
+    "title": "Хочу",
+    "artist": "Ёлка",
+    "image": "assets/184.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/184.f03da78cfda3.mp3",
+      "duration": 15.0,
+      "sourceStart": 10.032
+    }
+  },
+  {
+    "id": "185",
+    "title": "Берег и море",
+    "artist": "Карандаш, Ленин",
+    "image": "assets/185.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/185.9b10405c2c1c.mp3",
+      "duration": 15.0,
+      "sourceStart": 45.963
+    }
+  },
+  {
+    "id": "186",
+    "title": "Мёртвый анархист",
+    "artist": "Король и Шут",
+    "image": "assets/186.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/186.917d7e587373.mp3",
+      "duration": 15.0,
+      "sourceStart": 49.975
+    }
+  },
+  {
+    "id": "187",
+    "title": "Маяк",
+    "artist": "Сплин",
+    "image": "assets/187.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/187.a735440c429e.mp3",
+      "duration": 15.0,
+      "sourceStart": 24.622
+    }
+  },
+  {
+    "id": "188",
+    "title": "Ботик",
+    "artist": "Гарик Сукачёв",
+    "image": "assets/188.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/188.36d17a296dce.mp3",
+      "duration": 15.0,
+      "sourceStart": 25.15
+    }
+  },
+  {
+    "id": "189",
+    "title": "Восемнадцать берёз",
+    "artist": "Чиж и Ко",
+    "image": "assets/189.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/189.23ab571759e2.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.897
+    }
+  },
+  {
+    "id": "190",
+    "title": "Сан-Франциско (Remix)",
+    "artist": "Кар-Мэн",
+    "image": "assets/190.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/190.03aafb072729.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.952
+    }
+  },
+  {
+    "id": "191",
+    "title": "Perhaps Perhaps Perhaps",
+    "artist": "Doris Day",
+    "image": "assets/191.webp",
+    "categories": [
+      "screenshots",
+      "english"
+    ],
+    "audio": {
+      "src": "audio/191.c47652f82285.mp3",
+      "duration": 15.0,
+      "sourceStart": 7.719
+    }
+  },
+  {
+    "id": "192",
+    "title": "Frozen",
+    "artist": "Madonna",
+    "image": "assets/192.webp",
+    "categories": [
+      "screenshots",
+      "english"
+    ],
+    "audio": {
+      "src": "audio/192.1e79d183481f.mp3",
+      "duration": 15.0,
+      "sourceStart": 0
+    }
+  },
+  {
+    "id": "193",
+    "title": "Angels",
+    "artist": "Morandi",
+    "image": "assets/193.webp",
+    "categories": [
+      "screenshots",
+      "english"
+    ],
+    "audio": {
+      "src": "audio/193.63ea9392f52f.mp3",
+      "duration": 15.0,
+      "sourceStart": 19.067
+    }
+  },
+  {
+    "id": "194",
+    "title": "Любимка",
+    "artist": "NILETTO",
+    "image": "assets/194.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/194.ec31fec6e2b9.mp3",
+      "duration": 15.0,
+      "sourceStart": 3.613
+    }
+  },
+  {
+    "id": "195",
+    "title": "Где нас нет",
+    "artist": "Oxxxymiron",
+    "image": "assets/195.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/195.f7c8556222cc.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.341
+    }
+  },
+  {
+    "id": "196",
+    "title": "Клетка",
+    "artist": "Quest Pistols",
+    "image": "assets/196.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/196.aa5e523c26d3.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.755
+    }
+  },
+  {
+    "id": "197",
+    "title": "Да, со мной не просто",
+    "artist": "The Hatters",
+    "image": "assets/197.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/197.6fad73feb293.mp3",
+      "duration": 15.0,
+      "sourceStart": 9.624
+    }
+  },
+  {
+    "id": "198",
+    "title": "Наружу изнутри",
+    "artist": "The Hatters",
+    "image": "assets/198.webp",
+    "categories": [
+      "screenshots"
+    ],
+    "audio": {
+      "src": "audio/198.8f211f97954c.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.595
+    }
+  },
+  {
+    "id": "199",
+    "title": "Just Tonight",
+    "artist": "The Pretty Reckless",
+    "image": "assets/199.webp",
+    "categories": [
+      "screenshots",
+      "english"
+    ],
+    "audio": {
+      "src": "audio/199.3b7c44a00b5e.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.771
+    }
+  },
+  {
+    "id": "200",
+    "title": "Я так соскучился",
+    "artist": "Володя Котляров",
+    "image": "assets/200.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/200.18626d3f50b2.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.227
+    }
+  },
+  {
+    "id": "202",
+    "title": "Штиль",
+    "artist": "Ария",
+    "image": "assets/202.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/202.9b686c1818ea.mp3",
+      "duration": 15.0,
+      "sourceStart": 9.727
+    }
+  },
+  {
+    "id": "203",
+    "title": "Всё идёт по плану",
+    "artist": "Гражданская Оборона",
+    "image": "assets/203.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/203.5b7317fd8d49.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.863
+    }
+  },
+  {
+    "id": "204",
+    "title": "Демобилизация",
+    "artist": "Сектор Газа",
+    "image": "assets/204.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/204.976b0162c891.mp3",
+      "duration": 15.0,
+      "sourceStart": 30.135
+    }
+  },
+  {
+    "id": "205",
+    "title": "Выхода нет",
+    "artist": "Сплин",
+    "image": "assets/205.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/205.574a6e67d242.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.779
+    }
+  },
+  {
+    "id": "206",
+    "title": "Люби меня, люби",
+    "artist": "Гречка",
+    "image": "assets/206.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/206.b546de0465a0.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.225
+    }
+  },
+  {
+    "id": "207",
+    "title": "Самый дорогой человек",
+    "artist": "Нервы",
+    "image": "assets/207.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/207.bd6a6fa62854.mp3",
+      "duration": 15.0,
+      "sourceStart": 0
+    }
+  },
+  {
+    "id": "208",
+    "title": "Просвистела",
+    "artist": "ДДТ",
+    "image": "assets/208.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/208.6a8cf86870c1.mp3",
+      "duration": 15.0,
+      "sourceStart": 9.783
+    }
+  },
+  {
+    "id": "209",
+    "title": "Как на войне",
+    "artist": "Агата Кристи",
+    "image": "assets/209.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/209.d3240e8fe2f9.mp3",
+      "duration": 15.0,
+      "sourceStart": 42.219
+    }
+  },
+  {
+    "id": "210",
+    "title": "Батареи",
+    "artist": "Нервы",
+    "image": "assets/210.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/210.fc61c5499e04.mp3",
+      "duration": 15.0,
+      "sourceStart": 18.975
+    }
+  },
+  {
+    "id": "211",
+    "title": "Фантом",
+    "artist": "Чиж и Ко",
+    "image": "assets/211.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/211.caa18a72b81d.mp3",
+      "duration": 15.0,
+      "sourceStart": 123.854
+    }
+  },
+  {
+    "id": "212",
+    "title": "Тёмная ночь",
+    "artist": "Марк Бернес",
+    "image": "assets/212.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/212.2eba48779c2f.mp3",
+      "duration": 15.0,
+      "sourceStart": 12.696
+    }
+  },
+  {
+    "id": "213",
+    "title": "А мы не ангелы, парень",
+    "artist": "Алексей Понамарёв",
+    "image": "assets/213.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/213.7477946c48e1.mp3",
+      "duration": 15.0,
+      "sourceStart": 20.127
+    }
+  },
+  {
+    "id": "214",
+    "title": "Дурак и молния",
+    "artist": "Король и Шут",
+    "image": "assets/214.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/214.418f44761ee6.mp3",
+      "duration": 15.0,
+      "sourceStart": 5.54
+    }
+  },
+  {
+    "id": "215",
+    "title": "Бомж",
+    "artist": "Сектор Газа",
+    "image": "assets/215.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/215.137291fa5ede.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.257
+    }
+  },
+  {
+    "id": "216",
+    "title": "Журавли",
+    "artist": "Марк Бернес",
+    "image": "assets/216.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/216.713368d95df9.mp3",
+      "duration": 15.0,
+      "sourceStart": 41.731
+    }
+  },
+  {
+    "id": "217",
+    "title": "Прогулки по воде",
+    "artist": "Наутилус Помпилиус",
+    "image": "assets/217.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/217.641f9ff68a24.mp3",
+      "duration": 15.0,
+      "sourceStart": 48.837
+    }
+  },
+  {
+    "id": "218",
+    "title": "Туман",
+    "artist": "Сектор Газа",
+    "image": "assets/218.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/218.2971bf0e5443.mp3",
+      "duration": 15.0,
+      "sourceStart": 19.32
+    }
+  },
+  {
+    "id": "221",
+    "title": "Я свободен",
+    "artist": "Кипелов",
+    "image": "assets/221.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/221.52a11180dfab.mp3",
+      "duration": 15.0,
+      "sourceStart": 55.98
+    }
+  },
+  {
+    "id": "222",
+    "title": "Белая ночь",
+    "artist": "Виктор Салтыков",
+    "image": "assets/222.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/222.877e2b096037.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.446
+    }
+  },
+  {
+    "id": "223",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "image": "assets/223.webp",
+    "categories": [
+      "guitar",
+      "english"
+    ],
+    "audio": {
+      "src": "audio/223.456dfa6b95d1.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.588
+    }
+  },
+  {
+    "id": "227",
+    "title": "В руках автомат",
+    "artist": "МодеМ",
+    "image": "assets/227.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/227.b855451a721e.mp3",
+      "duration": 15.0,
+      "sourceStart": 8.782
+    }
+  },
+  {
+    "id": "228",
+    "title": "Хочешь",
+    "artist": "Земфира",
+    "image": "assets/228.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/228.94e7ecadd912.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.561
+    }
+  },
+  {
+    "id": "229",
+    "title": "Вороны",
+    "artist": "Нервы",
+    "image": "assets/229.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/229.c57d8229b0bd.mp3",
+      "duration": 15.0,
+      "sourceStart": 5.779
+    }
+  },
+  {
+    "id": "230",
+    "title": "Жить в кайф",
+    "artist": "Макс Корж",
+    "image": "assets/230.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/230.eb70b17ad4e8.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.841
+    }
+  },
+  {
+    "id": "231",
+    "title": "Когда твоя девушка больна",
+    "artist": "Кино",
+    "image": "assets/231.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/231.7bb0007c2b0f.mp3",
+      "duration": 15.0,
+      "sourceStart": 29.378
+    }
+  },
+  {
+    "id": "233",
+    "title": "Крылья",
+    "artist": "Наутилус Помпилиус",
+    "image": "assets/233.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/233.6550d136c617.mp3",
+      "duration": 15.0,
+      "sourceStart": 33.82
+    }
+  },
+  {
+    "id": "234",
+    "title": "Ты неси меня река",
+    "artist": "Любэ",
+    "image": "assets/234.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/234.bad35bbec70b.mp3",
+      "duration": 15.0,
+      "sourceStart": 1.247
+    }
+  },
+  {
+    "id": "236",
+    "title": "Полковнику никто не пишет",
+    "artist": "Би-2",
+    "image": "assets/236.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/236.68149b293c5b.mp3",
+      "duration": 15.0,
+      "sourceStart": 21.201
+    }
+  },
+  {
+    "id": "237",
+    "title": "Метель",
+    "artist": "ДДТ",
+    "image": "assets/237.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/237.f32038383474.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.446
+    }
+  },
+  {
+    "id": "238",
+    "title": "Счастье",
+    "artist": "Нервы",
+    "image": "assets/238.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/238.1a87ec455c3b.mp3",
+      "duration": 15.0,
+      "sourceStart": 3.641
+    }
+  },
+  {
+    "id": "239",
+    "title": "Маленький",
+    "artist": "Дайте танк (!)",
+    "image": "assets/239.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/239.23c1a3e46f15.mp3",
+      "duration": 15.0,
+      "sourceStart": 40.423
+    }
+  },
+  {
+    "id": "240",
+    "title": "Камнем по голове",
+    "artist": "Король и Шут",
+    "image": "assets/240.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/240.fbb383cf883c.mp3",
+      "duration": 15.0,
+      "sourceStart": 0
+    }
+  },
+  {
+    "id": "241",
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "image": "assets/241.webp",
+    "categories": [
+      "guitar",
+      "english"
+    ],
+    "audio": {
+      "src": "audio/241.f9415039213f.mp3",
+      "duration": 15.0,
+      "sourceStart": 50.279
+    }
+  },
+  {
+    "id": "242",
+    "title": "Горы по колено",
+    "artist": "Макс Корж",
+    "image": "assets/242.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/242.8ac20038c04d.mp3",
+      "duration": 15.0,
+      "sourceStart": 6.192
+    }
+  },
+  {
+    "id": "244",
+    "title": "Твой звонок",
+    "artist": "Сектор Газа",
+    "image": "assets/244.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/244.b274e56e48c7.mp3",
+      "duration": 15.0,
+      "sourceStart": 69.398
+    }
+  },
+  {
+    "id": "246",
+    "title": "Стук",
+    "artist": "Кино",
+    "image": "assets/246.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/246.0b708cf35eb3.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.682
+    }
+  },
+  {
+    "id": "247",
+    "title": "Всё решено",
+    "artist": "Валентин Стрыкало",
+    "image": "assets/247.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/247.2d1a39071bde.mp3",
+      "duration": 15.0,
+      "sourceStart": 16.043
+    }
+  },
+  {
+    "id": "248",
+    "title": "До скорой встречи",
+    "artist": "Звери",
+    "image": "assets/248.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/248.5111bc7eea1f.mp3",
+      "duration": 15.0,
+      "sourceStart": 12.513
+    }
+  },
+  {
+    "id": "250",
+    "title": "Любите, девушки",
+    "artist": "Браво",
+    "image": "assets/250.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/250.40bce5b57cbb.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.617
+    }
+  },
+  {
+    "id": "251",
+    "title": "Юность в сапогах",
+    "artist": "Конец Фильма",
+    "image": "assets/251.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/251.7e1576d791ed.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.071
+    }
+  },
+  {
+    "id": "252",
+    "title": "Первое свидание",
+    "artist": "Алёна Швец",
+    "image": "assets/252.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/252.28b932be6cf2.mp3",
+      "duration": 15.0,
+      "sourceStart": 22.982
+    }
+  },
+  {
+    "id": "254",
+    "title": "Мой рок-н-ролл",
+    "artist": "Би-2",
+    "image": "assets/254.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/254.41ffec4e14fa.mp3",
+      "duration": 15.0,
+      "sourceStart": 47.925
+    }
+  },
+  {
+    "id": "259",
+    "title": "Замигает свет",
+    "artist": "Kentukki",
+    "image": "assets/259.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/259.98c1ef8ea220.mp3",
+      "duration": 15.0,
+      "sourceStart": 116.34
+    }
+  },
+  {
+    "id": "260",
+    "title": "Серебро",
+    "artist": "Би-2",
+    "image": "assets/260.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/260.029a2a8c1e3d.mp3",
+      "duration": 15.0,
+      "sourceStart": 4.856
+    }
+  },
+  {
+    "id": "261",
+    "title": "В платье белом",
+    "artist": "Ляпис Трубецкой",
+    "image": "assets/261.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/261.9b5473f07a88.mp3",
+      "duration": 15.0,
+      "sourceStart": 15.385
+    }
+  },
+  {
+    "id": "262",
+    "title": "На поле танки грохотали",
+    "artist": "Чиж и Ко",
+    "image": "assets/262.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/262.8683b9a0ac7c.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.317
+    }
+  },
+  {
+    "id": "264",
+    "title": "Искала",
+    "artist": "Земфира",
+    "image": "assets/264.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/264.14768a08a6be.mp3",
+      "duration": 15.0,
+      "sourceStart": 28.607
+    }
+  },
+  {
+    "id": "266",
+    "title": "Слово пацана",
+    "artist": "Макс Корж",
+    "image": "assets/266.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/266.ff0a3b573ac1.mp3",
+      "duration": 15.0,
+      "sourceStart": 0.512
+    }
+  },
+  {
+    "id": "267",
+    "title": "Видели ночь",
+    "artist": "Кино",
+    "image": "assets/267.webp",
+    "categories": [
+      "guitar"
+    ],
+    "audio": {
+      "src": "audio/267.d04b6424aa4a.mp3",
+      "duration": 15.0,
+      "sourceStart": 17.902
+    }
+  }
+]

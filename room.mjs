@@ -1,5 +1,5 @@
 import {createGame} from './game.mjs';
-export const MAX_PLAYERS=10, COUNTDOWN_MS=3000, ROUND_MS=100000;
+export const MAX_PLAYERS=50, COUNTDOWN_MS=3000, ROUND_MS=100000;
 export const pointsFor=elapsed=>Math.max(0,100-Math.floor(Math.max(0,elapsed)/1000));
 export function createRoom(songs,pack,rounds,nonce,rng=Math.random){const game=createGame(songs,pack,rounds,rng);return {pack,questions:game.questions,index:0,phase:'lobby',players:[],nonce,hostReady:false,startAt:null,eligible:[],answers:new Map(),results:[]};}
 export function joinRoom(room,profile){

@@ -1,1 +1,1 @@
-{"name":"song-picture-quiz","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test game.test.mjs room.test.mjs startup.test.mjs"},"devDependencies":{"esbuild":"0.25.12"}}
+{"name":"song-picture-quiz","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test game.test.mjs room.test.mjs startup.test.mjs audio.test.mjs server/server.test.mjs","server":"node server/server.mjs"},"devDependencies":{"esbuild":"0.25.12"},"dependencies":{"ws":"8.22.0"}}

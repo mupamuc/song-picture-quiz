@@ -1,3 +1,4 @@
+import {validExcerpt} from './audio.mjs';
 export const PACKS={all:'Все песни',guitar:'Под гитару',screenshots:'Наши любимые',english:'English hits'};
 export function songKey(song){return `${song.artist.trim().toLocaleLowerCase('ru')}|${song.title.trim().toLocaleLowerCase('ru')}`;}
 export function validateSongs(songs){
@@ -6,6 +7,7 @@ export function validateSongs(songs){
   for(const s of songs){
     if(!s||typeof s.id!=='string'||!s.id||typeof s.artist!=='string'||!s.artist.trim()||typeof s.title!=='string'||!s.title.trim()||!/^assets\/\d+\.webp$/.test(s.image)||!Array.isArray(s.categories)||s.categories.some(c=>!Object.hasOwn(PACKS,c)||c==='all'))throw new Error('Некорректная запись песни');
     if(ids.has(s.id)||labels.has(songKey(s)))throw new Error('Повтор песни');
+    if(s.audio&&!validExcerpt(s.audio))throw new Error('Некорректный фрагмент песни');
     ids.add(s.id);labels.add(songKey(s));
   }
   return songs;

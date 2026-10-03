@@ -1,0 +1,10 @@
+node_modules
+.git
+assets
+audio
+*.test.mjs
+*.js
+*.css
+*.html
+*.svg
+vendor

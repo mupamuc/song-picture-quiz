@@ -2,6 +2,7 @@ import {build} from 'esbuild';
 import {createHash} from 'node:crypto';
 import {readFile,writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
+import {RELAY_URL} from './connection.mjs';
 const dir=fileURLToPath(new URL('.',import.meta.url));
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex').slice(0,12);
 const result=await build({absWorkingDir:dir,entryPoints:['app.js'],bundle:true,write:false,format:'iife',platform:'browser',target:'es2020',charset:'utf8',minify:true,legalComments:'inline',outfile:'app.bundle.js'});
@@ -11,6 +12,9 @@ const startup=await readFile(new URL('startup.js',import.meta.url)),startupName=
 await writeFile(new URL(startupName,import.meta.url),startup);
 const pagePath=new URL('index.html',import.meta.url);
 let html=await readFile(pagePath,'utf8');
+const relayOrigin=RELAY_URL?new URL(RELAY_URL).origin:'';
+if(RELAY_URL&&(!RELAY_URL.startsWith('wss://')||new URL(RELAY_URL).pathname!=='/rooms'))throw new Error('Use a secure room-service endpoint ending in /rooms');
+html=html.replace(/connect-src [^;]*;/,`connect-src 'self' https://0.peerjs.com wss://0.peerjs.com${relayOrigin?' '+relayOrigin:''};`);
 if(!html.includes('data-quiz-bundle')||!html.includes('data-quiz-startup'))throw new Error('Startup tags not found');
 html=html.replace(/<script\b[^>]*data-quiz-startup[^>]*><\/script>/,`<script data-quiz-startup src="${startupName}" defer></script>`).replace(/<script\b[^>]*data-quiz-bundle[^>]*><\/script>/,`<script data-quiz-bundle src="${appName}" defer></script>`);
 await writeFile(pagePath,html);
