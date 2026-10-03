@@ -13,7 +13,8 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <link rel="preload" href="assets/177.webp" as="image">
-  <script type="module" src="app.js?v=20261003-2"></script>
+  <script data-quiz-startup src="startup.780950f9edc8.js" defer></script>
+  <script data-quiz-bundle src="app.4dff9c2fbf84.js" defer></script>
 </head>
 <body>
   <div class="shell">
@@ -29,8 +30,8 @@
             <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✦</span> ВЕЧЕРИНКА НАЧИНАЕТСЯ С КАРТИНКИ</p>
             <h1 id="home-title">Узнай песню<br><em>по картинке.</em></h1>
             <p class="hero-description">Одна картинка, четыре песни. Играй сам или собирай компанию: экран у ведущего, ответы — на телефонах.</p>
-            <button id="start" class="primary-button" type="button" disabled>Загружаем песни… <span aria-hidden="true">↗</span></button>
-            <p id="start-summary" class="start-summary" aria-live="polite">Готовим музыкальную подборку</p>
+            <button id="start" class="primary-button" type="button" disabled>Запускаем игру… <span aria-hidden="true">↗</span></button>
+            <p id="start-summary" class="start-summary" aria-live="polite">Запускаем музыкальную игру</p>
             <div class="party-entry"><button id="host-room" class="secondary-button" type="button" disabled>Играть с телефонами</button><button id="open-join" class="text-button" type="button">Войти по коду →</button></div>
           </div>
           <div class="hero-art" aria-label="Пример музыкальной картинки">
@@ -44,13 +45,13 @@
           <div class="setup-heading"><h2>Что будем угадывать?</h2><p>Выбери подборку под настроение</p></div>
           <div id="packs" class="packs" role="group" aria-label="Подборка песен">
             <button type="button" class="pack selected" data-pack="all" aria-pressed="true"><span class="pack-symbol" aria-hidden="true">✦</span><span><b>Все песни</b><small id="count-all">241 песня</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
-            <button type="button" class="pack" data-pack="guitar" aria-pressed="false"><span class="pack-symbol" aria-hidden="true">♫</span><span><b>Под гитару</b><small id="count-guitar">Загружаем…</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
-            <button type="button" class="pack" data-pack="screenshots" aria-pressed="false"><span class="pack-symbol" aria-hidden="true">♡</span><span><b>Наши любимые</b><small id="count-screenshots">Песни со скриншотов</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
-            <button type="button" class="pack" data-pack="english" aria-pressed="false"><span class="pack-symbol" aria-hidden="true">◎</span><span><b>English hits</b><small id="count-english">Загружаем…</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
+            <button type="button" class="pack" data-pack="guitar" aria-pressed="false"><span class="pack-symbol" aria-hidden="true">♫</span><span><b>Под гитару</b><small id="count-guitar">85 песен</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
+            <button type="button" class="pack" data-pack="screenshots" aria-pressed="false"><span class="pack-symbol" aria-hidden="true">♡</span><span><b>Наши любимые</b><small id="count-screenshots">26 песен</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
+            <button type="button" class="pack" data-pack="english" aria-pressed="false"><span class="pack-symbol" aria-hidden="true">◎</span><span><b>English hits</b><small id="count-english">32 песни</small></span><span class="pack-tick" aria-hidden="true">✓</span></button>
           </div>
           <div class="setup-bottom"><label for="rounds">Картинок в партии <select id="rounds"><option value="10">10</option><option value="20" selected>20</option><option value="30">30</option></select></label><p>Одному: <b>+100</b><span>·</span>С телефонами: <b>100 − секунды</b></p></div>
         </div>
-        <p id="load-error" class="error-box" role="alert" hidden>Не удалось загрузить песни. <button id="reload-data" type="button" class="text-button">Попробовать снова</button></p>
+        <p id="load-error" class="error-box" role="alert" hidden><span id="startup-error-detail">Не удалось запустить игру.</span> <button id="reload-data" type="button" class="text-button">Обновить игру</button></p>
       </section>
       <section id="party" aria-labelledby="party-title" hidden>
         <div class="game-topline"><button id="party-leave" class="plain-button" type="button">← Выйти</button><span id="party-role" class="pack-label">Игра с телефонами</span><span id="party-code-pill" class="score-pill" hidden>КОМНАТА <b id="party-code-small"></b></span></div>

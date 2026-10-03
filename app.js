@@ -1,7 +1,7 @@
 import {PACKS,validateSongs,poolFor,createGame,answerGame,nextQuestion,mistakes,wordForm,recordKey} from './game.mjs';
-import {initParty} from './party.js?v=20261003-2';
+import catalogue from './songs.json';
 const $=id=>document.getElementById(id);
-let songs=[],pack='all',game=null,imageReady=false,imageGeneration=0;
+let songs=[],pack='all',game=null,imageReady=false,imageGeneration=0,partyModule=null;
 const storage={get(key,fallback){try{return localStorage.getItem(key)??fallback;}catch{return fallback;}},set(key,value){try{localStorage.setItem(key,String(value));return true;}catch{return false;}}};
 function showScreen(name){for(const id of ['home','game','results','party'])$(id).hidden=id!==name;window.scrollTo({top:0,behavior:'instant'});}
 function updateSetup(){
@@ -12,16 +12,29 @@ function updateSetup(){
   storage.set('song-picture-quiz:pack:v1',pack);storage.set('song-picture-quiz:rounds:v1',requested);
 }
 function arrow(text){const span=document.createElement('span');span.textContent=text;span.setAttribute('aria-hidden','true');return span;}
-async function loadSongs(){
+function loadSongs(){
   $('load-error').hidden=true;$('start').disabled=true;
   try{
-    const response=await fetch('./songs.json');if(!response.ok)throw new Error('Не загрузилась подборка');songs=validateSongs(await response.json());
+    songs=validateSongs(catalogue);
     for(const key of Object.keys(PACKS)){const n=poolFor(songs,key).length;$(`count-${key}`).textContent=`${n} ${wordForm(n,'песня','песни','песен')}`;}
     const saved=storage.get('song-picture-quiz:pack:v1','all');if(Object.hasOwn(PACKS,saved)&&poolFor(songs,saved).length>=4)pack=saved;
     const rounds=storage.get('song-picture-quiz:rounds:v1','20');if(['10','20','30'].includes(rounds))$('rounds').value=rounds;
     updateSetup();
-    initParty({songs,getSetup:()=>({pack,rounds:Number($('rounds').value)}),showScreen});
-  }catch(error){$('load-error').hidden=false;$('start').textContent='Песни пока не загрузились';$('start-summary').textContent='Проверь подключение и попробуй ещё раз.';}
+    $('host-room').disabled=false;
+    window.dispatchEvent(new Event('quiz:ready'));
+    const invite=new URL(location.href).searchParams.get('room');if(invite)openParty('join',invite.toUpperCase());
+  }catch(error){window.dispatchEvent(new CustomEvent('quiz:failed',{detail:'Не удалось открыть подборку песен. Обнови игру.'}));}
+}
+async function openParty(action,invite=''){
+  if(!songs.length)return;
+  if(location.protocol==='file:'){$('notice').textContent='Для игры с телефонами открой https://mupamuc.github.io/song-picture-quiz/';return;}
+  $('host-room').disabled=true;$('open-join').disabled=true;$('notice').textContent='Готовим игру с телефонами…';
+  try{
+    partyModule??=import('./party.js');const {initParty}=await partyModule;
+    const controls=initParty({songs,getSetup:()=>({pack,rounds:Number($('rounds').value)}),showScreen});
+    $('notice').textContent='';if(action==='host')controls.host();else controls.openJoin(invite);
+  }catch(error){partyModule=null;$('notice').textContent='Не удалось запустить игру с телефонами. Обнови страницу или попробуй другой браузер. Одиночная игра доступна.';}
+  finally{$('host-room').disabled=false;$('open-join').disabled=false;}
 }
 function startGame(){try{game=createGame(songs,pack,Number($('rounds').value));showScreen('game');$('game-pack').textContent=PACKS[pack];renderQuestion();}catch{$('notice').textContent='Эту подборку пока не удалось открыть. Выбери другую.';}}
 function loadQuestionImage(retry=false){
@@ -75,7 +88,8 @@ function renderResults(){
   $('results-title').focus({preventScroll:true});
 }
 function goHome(){imageGeneration++;game=null;showScreen('home');updateSetup();$('start').focus({preventScroll:true});}
-$('start').addEventListener('click',startGame);$('replay').addEventListener('click',startGame);$('home-button').addEventListener('click',goHome);$('choose-pack').addEventListener('click',goHome);$('next').addEventListener('click',advance);$('skip').addEventListener('click',()=>submit(null));$('retry-image').addEventListener('click',()=>loadQuestionImage(true));$('reload-data').addEventListener('click',loadSongs);
+$('start').addEventListener('click',startGame);$('replay').addEventListener('click',startGame);$('home-button').addEventListener('click',goHome);$('choose-pack').addEventListener('click',goHome);$('next').addEventListener('click',advance);$('skip').addEventListener('click',()=>submit(null));$('retry-image').addEventListener('click',()=>loadQuestionImage(true));
+$('host-room').onclick=()=>openParty('host');$('open-join').onclick=()=>openParty('join');
 $('packs').addEventListener('click',event=>{const button=event.target.closest('[data-pack]');if(!button)return;pack=button.dataset.pack;updateSetup();});$('rounds').addEventListener('change',updateSetup);
 $('fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{$('notice').textContent='Этот браузер не разрешил полноэкранный режим.';}});
 document.addEventListener('fullscreenchange',()=>{const active=!!document.fullscreenElement;$('fullscreen').setAttribute('aria-label',active?'Выйти из полного экрана':'На весь экран');$('fullscreen').querySelector('span').textContent=active?'Выйти из полного экрана':'На весь экран';});

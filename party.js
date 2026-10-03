@@ -2,12 +2,12 @@ import {PACKS} from './game.mjs';
 import {Peer,renderQR} from './vendor/realtime.mjs';
 import {createRoom,joinRoom,startRoom,readyRoom,answerRoom,tickRoom,finishRound,advanceRoom,snapshot,disconnectPlayer,removePlayer,roundKey,pointsFor,ROUND_MS} from './room.mjs';
 const $=id=>document.getElementById(id),prefix='song-picture-quiz:v1:';
-let initialized=false;
+let controls=null;
 const save=(key,value)=>{try{localStorage.setItem(prefix+key,JSON.stringify(value));}catch{}};
 const read=key=>{try{return JSON.parse(localStorage.getItem(prefix+key));}catch{return null;}};
 const monotonic=()=>Math.floor(performance.timeOrigin+performance.now());
 export function initParty({songs,getSetup,showScreen}){
-  if(initialized)return;initialized=true;$('host-room').disabled=false;
+  if(controls)return controls;$('host-room').disabled=false;
   let role=null,peer=null,connection=null,room=null,code='',profile=null,state=null,stateReceived=0,connections=new Map(),timer=null,joinTimeout=null,retryTimeout=null,retryCount=0,quitting=false,imageKey='',imageLoaded=false,pending=false,lastBroadcast=0,signalingReady=false;
   function status(text){$('party-status').textContent=text;}
   function clean(){quitting=true;clearInterval(timer);clearTimeout(joinTimeout);clearTimeout(retryTimeout);if(peer)peer.destroy();peer=null;connection=null;room=null;state=null;connections.clear();role=null;imageKey='';imageLoaded=false;pending=false;signalingReady=false;$('party-image').onload=null;$('party-image').onerror=null;$('party-reconnect').hidden=true;}
@@ -110,5 +110,5 @@ export function initParty({songs,getSetup,showScreen}){
   $('party-start').onclick=()=>{if(role==='host'&&startRoom(room))broadcast();};$('party-finish').onclick=()=>{if(role==='host'){finishRound(room,monotonic());broadcast();}};$('party-next').onclick=()=>{if(role==='host'&&advanceRoom(room))broadcast();};$('ranking-next').onclick=()=>{if(role!=='host')return;if(room.phase==='finished')host();else if(advanceRoom(room))broadcast();};$('party-retry-image').onclick=()=>loadImage(true);
   $('party-reconnect').onclick=()=>{if(role==='host'){if(!signalingReady||!peer||peer.destroyed)host();else if(peer.disconnected)peer.reconnect();}else if(peer&&!peer.destroyed){quitting=false;if(peer.disconnected)peer.reconnect();connectPlayer();}else if(role==='player')join({preventDefault(){}});};
   window.addEventListener('beforeunload',event=>{if(role==='host'&&room&&room.players.some(p=>p.connected)&&room.phase!=='finished'){event.preventDefault();event.returnValue='';}});
-  const invite=new URL(location.href).searchParams.get('room');if(invite)openJoin(invite.toUpperCase());
+  controls={host,openJoin};return controls;
 }

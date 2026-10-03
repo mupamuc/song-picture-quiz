@@ -1,0 +1,18 @@
+import {build} from 'esbuild';
+import {createHash} from 'node:crypto';
+import {readFile,writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+const dir=fileURLToPath(new URL('.',import.meta.url));
+const hash=bytes=>createHash('sha256').update(bytes).digest('hex').slice(0,12);
+const result=await build({absWorkingDir:dir,entryPoints:['app.js'],bundle:true,write:false,format:'iife',platform:'browser',target:'es2020',charset:'utf8',minify:true,legalComments:'inline',outfile:'app.bundle.js'});
+const bytes=result.outputFiles[0].contents,appName=`app.${hash(bytes)}.js`;
+await writeFile(new URL(appName,import.meta.url),bytes);
+const startup=await readFile(new URL('startup.js',import.meta.url)),startupName=`startup.${hash(startup)}.js`;
+await writeFile(new URL(startupName,import.meta.url),startup);
+const pagePath=new URL('index.html',import.meta.url);
+let html=await readFile(pagePath,'utf8');
+if(!html.includes('data-quiz-bundle')||!html.includes('data-quiz-startup'))throw new Error('Startup tags not found');
+html=html.replace(/<script\b[^>]*data-quiz-startup[^>]*><\/script>/,`<script data-quiz-startup src="${startupName}" defer></script>`).replace(/<script\b[^>]*data-quiz-bundle[^>]*><\/script>/,`<script data-quiz-bundle src="${appName}" defer></script>`);
+await writeFile(pagePath,html);
+await writeFile(new URL('build-info.json',import.meta.url),JSON.stringify({app:appName,startup:startupName,songs:241},null,2)+'\n');
+console.log(`${appName}: ${bytes.length} bytes; ${startupName}; catalogue included; classic script, no module fetches`);

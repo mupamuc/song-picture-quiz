@@ -1,1 +1,1 @@
-{"name":"song-picture-quiz","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test game.test.mjs room.test.mjs"}}
+{"name":"song-picture-quiz","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test game.test.mjs room.test.mjs startup.test.mjs"},"devDependencies":{"esbuild":"0.25.12"}}
