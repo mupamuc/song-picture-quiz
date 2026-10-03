@@ -1,0 +1,7 @@
+# Insert inside the existing memo.eykod.qzz.io block before its fallback proxy.
+handle_path /song-quiz/* {
+    reverse_proxy song-quiz-rooms:8102
+}
+handle {
+    reverse_proxy memo-web:8080
+}

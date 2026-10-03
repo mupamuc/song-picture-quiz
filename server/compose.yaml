@@ -1,14 +1,19 @@
 services:
   song-quiz-rooms:
+    image: song-quiz-rooms:${BUILD_SHA:-local}
+    container_name: song-quiz-rooms
     build:
       context: ..
       dockerfile: server/Dockerfile
     restart: unless-stopped
     ports:
-      - "127.0.0.1:8890:8890"
+      - "127.0.0.1:8102:8102"
     environment:
       ALLOWED_ORIGINS: https://mupamuc.github.io
       BUILD_SHA: ${BUILD_SHA:-local}
+      PORT: 8102
+    networks:
+      - proxy
     mem_limit: 256m
     cpus: 0.5
     security_opt:
@@ -23,3 +28,7 @@ services:
       options:
         max-size: "5m"
         max-file: "2"
+networks:
+  proxy:
+    external: true
+    name: eykod_default
